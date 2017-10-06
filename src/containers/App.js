@@ -22,7 +22,7 @@ class App extends Component {
 }`}</Code></Pre>
 		      		<Text>Apply your theme to the base elements as you build components.</Text>
 		      		<Pre mb={5} w={[1,1,1/2]} p={3} borderWidth="1px" borderColor="gray1" bg="gray0"><Code>{`// Header with 2 levels (8px) of padding, 
-// blue/primary background and white text.
+// blue (primary) background and white text.
 
 <Header p={2} bg="primary" color="white">My Header</Header>`}</Code></Pre>
 

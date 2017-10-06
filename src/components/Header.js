@@ -5,7 +5,7 @@ class Header extends Component {
 	render() {
 		return (
 			<HeaderEl bg={'blue'} color="white">
-				<Flex mw="1200px" mx="auto" align='center' py={5} px={4} wrap>
+				<Flex mw="1200px" mx="auto" align='center' p={4} wrap>
 					<Box w={2/3}>
 						<H1 f={6} m={0}>Styled System HTML Elements</H1>
 					</Box>
