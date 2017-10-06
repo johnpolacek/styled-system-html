@@ -1,6 +1,6 @@
 {
   "name": "styled-system-html",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Design system utilities for styled-components, glamorous, and other css-in-js libraries",
   "main": "src/html.js",
   "scripts": {
