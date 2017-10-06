@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Flex, Box, Header as _Header, H1, H2, LinkButton, P, UL, LI, A } from '../html';
+import { Flex, Box, Header as HeaderEl, H1, LinkButton, P, UL, LI, A } from '../html';
 
 class Header extends Component {
 	render() {
 		return (
-			<_Header bg={'blue'} color="white">
+			<HeaderEl bg={'blue'} color="white">
 				<Flex mw="1200px" mx="auto" align='center' py={5} px={4} wrap>
 					<Box w={2/3}>
 						<H1 f={6} m={0}>Styled System HTML Elements</H1>
@@ -22,7 +21,7 @@ class Header extends Component {
 			      		</UL>
 					</Box>
 				</Flex>		
-			</_Header>
+			</HeaderEl>
 		);
 	}
 }

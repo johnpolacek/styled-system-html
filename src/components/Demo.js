@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import { Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, Underline, Strike, Small, Blockquote, A, UL, OL, LI, Nav, Button, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img } from '../html';
 import theme from '../containers/Theme';
 import {
@@ -246,7 +245,7 @@ class Demo extends Component {
 					<Box w={[1,1,1,1/2]} overflow="hidden">
 						<LiveEditor />
 					</Box>
-					<Box w={[1,1,1,1/2]} py={2} pl={5} pr={4,4,4,2}>
+					<Box w={[1,1,1,1/2]} py={2} pl={5} pr={[4,4,4,2]}>
 						<LiveError />
 						<LivePreview />
 					</Box>
