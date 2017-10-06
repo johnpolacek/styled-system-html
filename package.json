@@ -1,0 +1,36 @@
+{
+  "name": "styled-system-html",
+  "version": "0.1.0",
+  "description": "Design system utilities for styled-components, glamorous, and other css-in-js libraries",
+  "main": "src/html.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "rm -rf docs && mv build docs && gh-pages -d docs -b master",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "css-in-js",
+    "styled-components",
+    "styled-system",
+    "glamorous"
+  ],
+  "author": "John Polacek",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-live": "^1.7.1",
+    "react-scripts": "1.0.14",
+    "styled-system": "^1.0.5",
+    "gh-pages": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpolacek/styled-system-html.git"
+  },
+  "homepage": "http://johnpolacek.github.io/styled-system-html"
+}
