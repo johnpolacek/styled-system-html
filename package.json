@@ -5,9 +5,9 @@
   "main": "src/html.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "rm -rf docs && mv build docs && gh-pages -d docs -b master",
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build docs",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -25,7 +25,8 @@
     "react-dom": "^16.0.0",
     "react-live": "^1.7.1",
     "react-scripts": "1.0.14",
-    "styled-system": "^1.0.5"
+    "styled-system": "^1.0.5",
+    "gh-pages": "^1.0.0"
   },
   "repository": {
     "type": "git",
