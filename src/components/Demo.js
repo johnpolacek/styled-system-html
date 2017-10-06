@@ -44,11 +44,12 @@ const code = `
 								   A link
 								</A>
 							</P>
-							<Blockquote px={4} mb={4} 
-								borderWidth="1px" 
+							<Blockquote bg="gray0" color="gray8" px={4} py={3} mb={4} 
+								borderWidth={1} borderColor="gray2"
 								borderLeft f={4} 
 								fontStyle="italic">
 								Son, you have the eyes of an eagle... a dead one.
+								<Text mt={0} align="right" pr={5} f={1} color="gray">– Grandpa Polacek</Text>
 							</Blockquote>
 							<UL>
 								<LI>List Item</LI>
