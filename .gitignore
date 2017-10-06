@@ -3,10 +3,6 @@
 # dependencies
 /node_modules
 
-# testing
-/coverage
-/public
-
 # production
 /build
 
