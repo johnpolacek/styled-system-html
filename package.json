@@ -5,11 +5,7 @@
   "main": "src/html.js",
   "scripts": {
     "predeploy": "npm run build",
-<<<<<<< HEAD
     "deploy": "gh-pages -d build -b gh-pages",
-=======
-    "deploy": "rm -rf docs && mv build docs && gh-pages -d ./ -b master",
->>>>>>> 301d6a8aa40683142ac82fd60ed17c34b72f07f3
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
