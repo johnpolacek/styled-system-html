@@ -11,7 +11,7 @@ class Header extends Component {
 						<H1 f={6} m={0}>Styled System HTML Elements</H1>
 					</Box>
 					<Box w={1/3} align="right">
-						<LinkButton bg={'blue8'}>View on Github</LinkButton>
+						<LinkButton href="https://github.com/johnpolacek/styled-system-html/" bg={'blue8'}>View on Github</LinkButton>
 					</Box>
 					<Box w={1}>
 						<P>HTML elements extended as styled components via styled system, ready for theming. Built with/for:</P>
