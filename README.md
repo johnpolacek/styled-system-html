@@ -7,7 +7,7 @@ HTML elements extended as styled components via styled system, ready for theming
 - [Grid Styled](http://jxnblk.com/grid-styled/) by [Brent Jackson](http://jxnblk.com)
 
 
-##Usage
+## Usage
 
 `npm i styled-system-html`
 
