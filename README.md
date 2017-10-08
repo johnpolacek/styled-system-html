@@ -27,7 +27,7 @@ Apply your theme to the base elements as you build components.
 // blue/primary background and white text.
 
 <Header p={2} bg="primary" color="white">
-	My Header
+  My Header
 </Header>
 ```
 
