@@ -1,12 +1,15 @@
 {
-  "name": "styled-system-html",
+  "name": "styled-system-html-docs",
   "version": "0.1.2",
   "description": "HTML elements extended as styled components via styled system, ready for theming.",
-  "main": "dist/index.js",
+  "main": "src/html.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs/build -b gh-pages",
-    "build": "babel src -d dist --presets=env,react"
+    "deploy": "gh-pages -d build -b gh-pages",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "keywords": [
     "react",
@@ -18,15 +21,12 @@
   "author": "John Polacek",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "gh-pages": "^1.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-live": "^1.7.1",
     "react-scripts": "1.0.14",
-    "styled-system": "^1.0.5"
+    "styled-system": "^1.0.5",
+    "gh-pages": "^1.0.0"
   },
   "repository": {
     "type": "git",

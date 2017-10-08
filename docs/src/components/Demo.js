@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, Underline, Strike, Small, Blockquote, A, UL, OL, LI, Nav, Button, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img } from '../html';
+import { Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, U, Del, Small, Blockquote, A, Button, UL, OL, LI, Nav, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img } from 'styled-system-html';
+// import { Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, U, Del, Small, Blockquote, A, UL, OL, LI, Nav, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img } from '../html';
 import theme from '../containers/Theme';
 import {
   LiveProvider,
@@ -9,7 +10,9 @@ import {
 } from 'react-live'
 import { ThemeProvider } from 'styled-components';
 
-const scope = { ThemeProvider, theme, Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, Underline, Strike, Small, Blockquote, A, UL, OL, LI, Nav, Button, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img }
+// import Button from '../Button'
+
+const scope = { ThemeProvider, theme, Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, U, Del, Small, Blockquote, A, UL, OL, LI, Nav, Button, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img }
 
 const code = `
 	render(
@@ -33,8 +36,8 @@ const code = `
 								<Span color="red" fontStyle="italic">style text</Span> 
 								by using Span or tags like <Em>Em</Em>, 
 								<Strong>Strong</Strong>, <Small>Small</Small>, 
-								<Underline>Underline</Underline>, 
-								<Strike>Strike</Strike>, etc.
+								<U>Underline</U>, 
+								<Del>Del</Del>, etc.
 							</P>
 							<P>
 								<A fontWeight="bold" 

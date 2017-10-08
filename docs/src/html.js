@@ -1,28 +1,7 @@
 import styled from 'styled-components'
-import { css } from 'styled-components'
-import { style, responsiveStyle, space, width, fontSize, color, fontWeight, textAlign, borderColor, borderWidth, boxShadow, hover, focus, active, disabled } from 'styled-system'
+import { fontSize, color, textAlign, borderColor, borderWidth, boxShadow } from 'styled-system'
 import { Flex as _Flex, Box as _Box } from 'grid-styled'
-
-const height = responsiveStyle({ prop:'height',cssProperty:'height' })
-const maxWidth = responsiveStyle({ prop: 'mw', cssProperty: 'maxWidth' })
-const fontStyle = style({ prop: 'fontStyle', cssProperty: 'fontStyle' })
-const overflow = responsiveStyle({ prop: 'overflow', cssProperty: 'overflow' })
-
-const wrapperStyles = css` ${space} ${width} ${height} ${fontStyle} ${fontSize} ${textAlign} ${color} ${maxWidth} ${height} ${boxShadow} ${borderColor} ${borderWidth} ${overflow} `
-const textStyles = css` ${space} ${width} ${fontWeight} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} `
-const textStylesPseudo = css` ${textStyles} ${hover} ${focus} ${active} ${disabled} `
-const buttonStyles = css`
-  display: inline-flex;
-  text-decoration: none;
-  margin: 0;
-  padding: 8px 16px;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size:16px;
-  border:none;
-  ${textStylesPseudo}
-`
+import { height, maxWidth, overflow, wrapperStyles, textStyles, textStylesPseudo, buttonStyles } from './styles'
 
 export const Flex = styled(_Flex)([], fontSize, color, maxWidth, boxShadow, borderColor, borderWidth)
 export const Box = styled(_Box)([], fontSize, color, textAlign, maxWidth, height, boxShadow, borderColor, borderWidth, overflow)
