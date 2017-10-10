@@ -1,0 +1,426 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a 1`] = `
+<a
+  className="sc-kpOJdX iJMGkT"
+/>
+`;
+
+exports[`should render abbr 1`] = `
+<abbr
+  className="sc-eHgmQL gNpgLZ"
+/>
+`;
+
+exports[`should render article 1`] = `
+<article
+  className="sc-iwsKbI iZmoBQ"
+/>
+`;
+
+exports[`should render aside 1`] = `
+<aside
+  className="sc-gZMcBi eLIoCL"
+/>
+`;
+
+exports[`should render audio 1`] = `
+<audio
+  className="sc-jnlKLf cPuNBI"
+/>
+`;
+
+exports[`should render blockquote 1`] = `
+<blockquote
+  className="sc-gqjmRU XeeYj"
+/>
+`;
+
+exports[`should render box 1`] = `
+<div
+  className="sc-ifAKCX cFlEyZ sc-bdVaJa iHZvIS"
+  is={null}
+/>
+`;
+
+exports[`should render button 1`] = `
+<button
+  className="sc-fMiknA bMLcaY"
+/>
+`;
+
+exports[`should render caption 1`] = `
+<caption
+  className="sc-uJMKN bhbEgf"
+/>
+`;
+
+exports[`should render cite 1`] = `
+<cite
+  className="sc-jWBwVP hYglWH"
+/>
+`;
+
+exports[`should render code 1`] = `
+<code
+  className="sc-gPEVay dYZSJx"
+/>
+`;
+
+exports[`should render col 1`] = `
+<col
+  className="sc-jqCOkK hjlTGp"
+/>
+`;
+
+exports[`should render colgroup 1`] = `
+<colgroup
+  className="sc-dNLxif caUVHH"
+/>
+`;
+
+exports[`should render data 1`] = `
+<data
+  className="sc-cMljjf iQWDdd"
+/>
+`;
+
+exports[`should render dd 1`] = `
+<dd
+  className="sc-jhAzac dwEcNU"
+/>
+`;
+
+exports[`should render del 1`] = `
+<del
+  className="sc-iAyFgw dmLQVh"
+/>
+`;
+
+exports[`should render dfn 1`] = `
+<dfn
+  className="sc-brqgnP kqWVhz"
+/>
+`;
+
+exports[`should render div 1`] = `
+<div
+  className="sc-EHOje jvzENE sc-bdVaJa iHZvIS"
+  is={null}
+/>
+`;
+
+exports[`should render dl 1`] = `
+<dl
+  className="sc-bRBYWo eBhhOC"
+/>
+`;
+
+exports[`should render dt 1`] = `
+<dt
+  className="sc-hzDkRC hZlgny"
+/>
+`;
+
+exports[`should render em 1`] = `
+<em
+  className="sc-ckVGcZ iVkYBh"
+/>
+`;
+
+exports[`should render fieldset 1`] = `
+<fieldset
+  className="sc-caSCKo kykvgk"
+/>
+`;
+
+exports[`should render figcaption 1`] = `
+<figcaption
+  className="sc-jlyJG bbVoDm"
+/>
+`;
+
+exports[`should render figure 1`] = `
+<figure
+  className="sc-iRbamj blIIpj"
+/>
+`;
+
+exports[`should render flex 1`] = `
+<div
+  className="sc-bxivhb bUZGRr sc-htpNat eLQHN sc-bdVaJa iHZvIS"
+  is={null}
+/>
+`;
+
+exports[`should render footer 1`] = `
+<footer
+  className="sc-htoDjs gpdYIm"
+/>
+`;
+
+exports[`should render form 1`] = `
+<form
+  className="sc-fAjcbJ emHKPt"
+/>
+`;
+
+exports[`should render h1 1`] = `
+<h1
+  className="sc-jTzLTM kGzcpX"
+/>
+`;
+
+exports[`should render h2 1`] = `
+<h2
+  className="sc-fjdhpX cNGNOP"
+/>
+`;
+
+exports[`should render h3 1`] = `
+<h3
+  className="sc-jzJRlG hJgKFi"
+/>
+`;
+
+exports[`should render h4 1`] = `
+<h4
+  className="sc-cSHVUG dVZlZg"
+/>
+`;
+
+exports[`should render h5 1`] = `
+<h5
+  className="sc-kAzzGY lmObsh"
+/>
+`;
+
+exports[`should render h6 1`] = `
+<h6
+  className="sc-chPdSV gLiqzZ"
+/>
+`;
+
+exports[`should render header 1`] = `
+<header
+  className="sc-bZQynM eRPioW"
+/>
+`;
+
+exports[`should render hgroup 1`] = `
+<hgroup
+  className="sc-VigVT ebHBRA"
+/>
+`;
+
+exports[`should render image 1`] = `
+<image
+  className="sc-gGBfsJ cqKFSy"
+/>
+`;
+
+exports[`should render img 1`] = `
+<img
+  className="sc-bbmXgH IATeq"
+/>
+`;
+
+exports[`should render input 1`] = `
+<input
+  className="sc-cHGsZl hFdoYb"
+/>
+`;
+
+exports[`should render inputsubmit 1`] = `
+<input
+  className="sc-eqIVtm fjcLjH"
+/>
+`;
+
+exports[`should render label 1`] = `
+<label
+  className="sc-kjoXOD hdbiO"
+/>
+`;
+
+exports[`should render legend 1`] = `
+<legend
+  className="sc-gisBJw hLcarJ"
+/>
+`;
+
+exports[`should render li 1`] = `
+<li
+  className="sc-Rmtcm bDPtWO"
+/>
+`;
+
+exports[`should render linkbutton 1`] = `
+<a
+  className="sc-dVhcbM bBFsJD"
+/>
+`;
+
+exports[`should render main 1`] = `
+<main
+  className="sc-gzVnrw gOSHpJ"
+/>
+`;
+
+exports[`should render mark 1`] = `
+<mark
+  className="sc-hSdWYo iyoyKI"
+/>
+`;
+
+exports[`should render nav 1`] = `
+<nav
+  className="sc-fBuWsC ebbvED"
+/>
+`;
+
+exports[`should render ol 1`] = `
+<ol
+  className="sc-csuQGl cbSDew"
+/>
+`;
+
+exports[`should render option 1`] = `null`;
+
+exports[`should render p 1`] = `
+<p
+  className="sc-kGXeez kkkupT"
+/>
+`;
+
+exports[`should render pre 1`] = `
+<pre
+  className="sc-jDwBTQ kTCAWw"
+/>
+`;
+
+exports[`should render q 1`] = `
+<q
+  className="sc-cvbbAY iFaAgt"
+/>
+`;
+
+exports[`should render section 1`] = `
+<section
+  className="sc-dnqmqq fhlpxo"
+/>
+`;
+
+exports[`should render select 1`] = `
+<select
+  className="sc-TOsTZ cfUfBE"
+/>
+`;
+
+exports[`should render small 1`] = `
+<small
+  className="sc-eNQAEJ jYupAT"
+/>
+`;
+
+exports[`should render span 1`] = `
+<span
+  className="sc-dxgOiQ hcgBDE"
+/>
+`;
+
+exports[`should render strong 1`] = `
+<strong
+  className="sc-jKJlTe kLkLzD"
+/>
+`;
+
+exports[`should render sub 1`] = `
+<sub
+  className="sc-hMqMXs hIxFsO"
+/>
+`;
+
+exports[`should render sup 1`] = `
+<sup
+  className="sc-kEYyzF kVzwdM"
+/>
+`;
+
+exports[`should render table 1`] = `
+<table
+  className="sc-cJSrbW ecgSdx"
+/>
+`;
+
+exports[`should render tbody 1`] = `
+<tbody
+  className="sc-ksYbfQ cVzOqx"
+/>
+`;
+
+exports[`should render td 1`] = `
+<td
+  className="sc-hqyNC cAsqMB"
+/>
+`;
+
+exports[`should render text 1`] = `
+<p
+  className="sc-kgoBCf MoTOt"
+/>
+`;
+
+exports[`should render textarea 1`] = `
+<textarea
+  className="sc-kgAjT fpHwes"
+/>
+`;
+
+exports[`should render tfoot 1`] = `
+<tfoot
+  className="sc-jbKcbu cJezDG"
+/>
+`;
+
+exports[`should render th 1`] = `
+<th
+  className="sc-frDJqD daPVDA"
+/>
+`;
+
+exports[`should render thead 1`] = `
+<thead
+  className="sc-hmzhuo eSdLzq"
+/>
+`;
+
+exports[`should render time 1`] = `
+<time
+  className="sc-jAaTju ulOSU"
+/>
+`;
+
+exports[`should render tr 1`] = `
+<tr
+  className="sc-kvZOFW owZrO"
+/>
+`;
+
+exports[`should render u 1`] = `
+<u
+  className="sc-kkGfuU kJFLiS"
+/>
+`;
+
+exports[`should render ul 1`] = `
+<ul
+  className="sc-gipzik dfbDSi"
+/>
+`;
+
+exports[`should render video 1`] = `
+<video
+  className="sc-fYxtnH eHtjsw"
+/>
+`;

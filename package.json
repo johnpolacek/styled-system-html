@@ -6,7 +6,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d docs/build -b gh-pages",
-    "build": "babel src -d dist --presets=env,react"
+    "build": "babel src -d dist --presets=env,react",
+    "test": "jest test.js"
   },
   "keywords": [
     "react",
@@ -23,13 +24,18 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "gh-pages": "^1.0.0",
+    "jest": "^21.2.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-live": "^1.7.1",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "react-test-renderer": "^16.0.0",
+    "regenerator-runtime": "^0.11.0"
   },
   "repository": {
     "type": "git",
