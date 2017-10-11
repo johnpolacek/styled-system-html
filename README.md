@@ -31,10 +31,9 @@ Apply your theme to the base elements as you build components.
 </Header>
 ```
 
-For more info, see:
+For more info, see [Styled System](http://jxnblk.com/styled-system/) by [Brent Jackson](http://jxnblk.com).
 
-- [Styled System HTML](https://github.com/johnpolacek/styled-system-html)
-- [Styled System](http://jxnblk.com/styled-system/) by [Brent Jackson](http://jxnblk.com)
+--
 
 Created by John Polacek
 
