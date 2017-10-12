@@ -13,11 +13,11 @@ class Header extends Component {
 						<LinkButton href="https://github.com/johnpolacek/styled-system-html/" bg={'blue8'}>View on Github</LinkButton>
 					</Box>
 					<Box w={1}>
-						<P>HTML elements extended as styled components via styled system, ready for theming. Built with/for:</P>
+						<P p={0}>HTML elements extended as styled components via styled system, ready for theming. Built with/for:</P>
 			      		<UL>
-			      			<LI><A color="white" fontWeight="bold" href="http://styled-components.com">Styled Components</A></LI>
-			      			<LI><A color="white" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A> by <A color="white" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A></LI>
-			      			<LI><A color="white" fontWeight="bold" href="http://jxnblk.com/grid-styled/">Grid Styled</A> by <A color="white" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A></LI>
+			      			<LI pb={1}><A color="white" fontWeight="bold" href="http://styled-components.com">Styled Components</A></LI>
+			      			<LI pb={1}><A color="white" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A> by <A color="white" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A></LI>
+			      			<LI pb={1}><A color="white" fontWeight="bold" href="http://jxnblk.com/grid-styled/">Grid Styled</A> by <A color="white" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A></LI>
 			      		</UL>
 					</Box>
 				</Flex>		
