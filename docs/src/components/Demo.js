@@ -93,7 +93,7 @@ const code = `
 								<Box pb={1}>
 									<Label for="select" mr={2}>Select Label</Label>
 								</Box>
-								<Select value="" height="28px" name="textInput" id="textInput">
+								<Select value="" height="28px" name="selectInput" id="selectInput">
 									<option value="">Please select..</option>
 									<option value="option1">Option 1</option>
 									<option value="option2">Option 2</option>
@@ -141,7 +141,7 @@ const code = `
 									<Label for="select" mr={2}>Select</Label>
 								</Box>
 								<Box w={[1,2/3]}>
-									<Select value="" height="28px" name="textInput" id="textInput">
+									<Select value="" height="28px" name="selectInput" id="selectInput">
 										<option value="">Please select..</option>
 										<option value="option1">Option 1</option>
 										<option value="option2">Option 2</option>
