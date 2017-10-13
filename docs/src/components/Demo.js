@@ -127,7 +127,7 @@ const code = `
 						borderWidth="1px" borderColor="gray2" borderBottom>
 						<Form pt={2} pb={5}>
 							<H3 pb={3}>Responsive Inline Form</H3>
-							<Flex align="flex-start" wrap pb={3}>
+							<Flex align="flex-start" wrap="wrap" pb={3}>
 								<Box w={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Label for="textInput" mr={2}>Text Input</Label>
 								</Box>
@@ -135,7 +135,7 @@ const code = `
 									<Input type="text" name="textInput" id="textInput" />
 								</Box>
 							</Flex>
-							<Flex align="flex-start" wrap pb={3}>
+							<Flex align="flex-start" wrap="wrap" pb={3}>
 								<Box w={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Label for="select" mr={2}>Select</Label>
 								</Box>
@@ -148,7 +148,7 @@ const code = `
 									</Select>
 								</Box>
 							</Flex>
-							<Flex align="flex-start" wrap pb={3}>
+							<Flex align="flex-start" wrap="wrap" pb={3}>
 								<Box w={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Label for="textArea" mr={2}>Text Area</Label>
 								</Box>
@@ -156,7 +156,7 @@ const code = `
 									<TextArea w={1} height="72px" type="text" name="textArea" id="textArea" />
 								</Box>
 							</Flex>
-							<Flex align="flex-start" wrap pb={3}>
+							<Flex align="flex-start" wrap="wrap" pb={3}>
 								<Box w={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Legend mr={2}>Radio Buttons</Legend>
 								</Box>
@@ -166,12 +166,12 @@ const code = `
 									<Label for="radio3" mr={3}><Input type="radio" name="radio" id="radio3" /> Radio 3</Label>
 								</Box>
 							</Flex>
-							<Flex align="flex-start" wrap pb={3}>
+							<Flex align="flex-start" wrap="wrap" pb={3}>
 								<Box ml={[0,'33.33%']} w={[1]}>
 									<Label for="checkboxInput" mr={2}><Input type="checkbox" name="checkboxInput" id="checkboxInput" /> Checkbox Input</Label>
 								</Box>
 							</Flex>
-							<Flex align="flex-start" wrap py={3}>
+							<Flex align="flex-start" wrap="wrap" py={3}>
 								<Box ml={[0,'33.33%']} w={[1]}>
 									<InputSubmit bg="base" type="submit" value="Submit" />
 								</Box>
@@ -250,7 +250,7 @@ class Demo extends Component {
 	render() {
 		return (
 			<LiveProvider code={code} scope={scope} noInline={true}>
-				<Flex wrap>
+				<Flex wrap="wrap">
 					<Box w={[1,1,1,1/2]} overflow="hidden">
 						<LiveEditor />
 					</Box>

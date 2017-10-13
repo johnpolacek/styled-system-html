@@ -2,7 +2,7 @@
 
 exports[`should render a 1`] = `
 <a
-  className="sc-kpOJdX kcHyQx"
+  className="sc-kpOJdX cRkXYD"
 />
 `;
 
@@ -38,14 +38,13 @@ exports[`should render blockquote 1`] = `
 
 exports[`should render box 1`] = `
 <div
-  className="sc-ifAKCX cFlEyZ sc-bdVaJa iHZvIS"
-  is={null}
+  className="sc-ifAKCX SZqON"
 />
 `;
 
 exports[`should render button 1`] = `
 <button
-  className="sc-fMiknA dZEdyC"
+  className="sc-fMiknA bwPSGt"
 />
 `;
 
@@ -105,8 +104,7 @@ exports[`should render dfn 1`] = `
 
 exports[`should render div 1`] = `
 <div
-  className="sc-EHOje jvzENE sc-bdVaJa iHZvIS"
-  is={null}
+  className="sc-EHOje hywXgG"
 />
 `;
 
@@ -148,8 +146,7 @@ exports[`should render figure 1`] = `
 
 exports[`should render flex 1`] = `
 <div
-  className="sc-bxivhb bUZGRr sc-htpNat eLQHN sc-bdVaJa iHZvIS"
-  is={null}
+  className="sc-bxivhb iMKkxF"
 />
 `;
 
@@ -233,7 +230,7 @@ exports[`should render input 1`] = `
 
 exports[`should render inputsubmit 1`] = `
 <input
-  className="sc-eqIVtm zCgHt"
+  className="sc-eqIVtm jZSKLO"
 />
 `;
 
@@ -257,7 +254,7 @@ exports[`should render li 1`] = `
 
 exports[`should render linkbutton 1`] = `
 <a
-  className="sc-dVhcbM djQxUU"
+  className="sc-dVhcbM eCbeSO"
 />
 `;
 

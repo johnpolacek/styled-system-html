@@ -1,8 +1,13 @@
 import styled from 'styled-components'
-import { fontSize, color, textAlign, borderColor, borderWidth, boxShadow } from 'styled-system'
-import { height, maxWidth, overflow, position, display, borderStyle } from './styles'
-import { Box as _Box } from 'grid-styled'
+import { responsiveStyle } from 'styled-system'
+import { wrapperStyles } from './styles'
 
+export const flex = responsiveStyle('flex')
+export const order = responsiveStyle('order')
 
-const Box = styled(_Box)([], fontSize, color, textAlign, borderColor, borderWidth, borderStyle, boxShadow, height, maxWidth, overflow, position, display)
+const Box = styled.div` 
+	${wrapperStyles} 
+	${flex}
+	${order}
+`
 export default Box

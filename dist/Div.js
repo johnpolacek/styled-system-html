@@ -4,17 +4,17 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _templateObject = _taggedTemplateLiteral([' ', ' '], [' ', ' ']);
+
 var _styledComponents = require('styled-components');
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _styledSystem = require('styled-system');
-
 var _styles = require('./styles');
-
-var _gridStyled = require('grid-styled');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Div = (0, _styledComponents2.default)(_gridStyled.Box)([], _styledSystem.fontSize, _styledSystem.color, _styledSystem.textAlign, _styledSystem.borderColor, _styledSystem.borderWidth, _styledSystem.boxShadow, _styles.height, _styles.maxWidth, _styles.overflow);
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Div = _styledComponents2.default.div(_templateObject, _styles.wrapperStyles);
 exports.default = Div;
