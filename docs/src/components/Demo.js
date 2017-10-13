@@ -236,6 +236,12 @@ const code = `
 							<Box px={2} py={1} position="absolute" style={{left:0,bottom:0}}>Bottom Left</Box>
 							<Box px={2} py={1} position="absolute" style={{right:0,bottom:0}}>Bottom Right</Box>
 						</Box>
+
+						<Box w={1} height="40px" mt={4}>
+							<Box p={1} borderWidth="1px" borderColor="gray2" borderStyle="dashed" float="left">Float Left</Box>
+							<Box p={1} borderWidth="1px" borderColor="gray2" borderStyle="dashed" float="right">Float Right</Box>
+						</Box>
+
 					</Section>
 				</Main>
 				<Footer bg="gray1" px={3} py={5}>

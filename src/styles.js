@@ -10,9 +10,10 @@ export const borderStyle = style({ prop: 'borderStyle', cssProperty: 'borderStyl
 export const overflow = responsiveStyle({ prop: 'overflow', cssProperty: 'overflow' })
 export const position = responsiveStyle({ prop: 'position', cssProperty: 'position' })
 export const display = responsiveStyle({ prop: 'display', cssProperty: 'display' })
+export const float = responsiveStyle({ prop: 'float', cssProperty: 'float' })
 
-export const wrapperStyles = css` ${space} ${width} ${height} ${fontStyle} ${fontSize} ${textAlign} ${color} ${maxWidth} ${height} ${boxShadow} ${borderColor} ${borderWidth} ${borderStyle} ${overflow} ${position} ${display} `
-export const textStyles = css` ${space} ${width} ${fontWeight} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} ${position} ${display} `
+export const wrapperStyles = css` ${space} ${width} ${height} ${fontStyle} ${fontSize} ${textAlign} ${color} ${maxWidth} ${height} ${boxShadow} ${borderColor} ${borderWidth} ${borderStyle} ${overflow} ${position} ${display} ${float} `
+export const textStyles = css` ${space} ${width} ${fontWeight} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} ${position} ${display} ${float} `
 export const textStylesPseudo = css` ${textStyles} ${hover} ${focus} ${active} ${disabled} `
 export const buttonStyles = css`
   display: inline-flex;
