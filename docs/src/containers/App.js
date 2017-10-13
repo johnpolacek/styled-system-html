@@ -4,7 +4,7 @@ import theme from './Theme';
 import Demo from '../components/Demo';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import {Box, Main, Text,H3, Pre, Code} from '../html';
+import {Box, Main, Text,H3, Pre, Code} from 'styled-system-html';
 
 class App extends Component {
   render() {

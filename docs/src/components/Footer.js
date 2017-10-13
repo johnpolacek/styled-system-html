@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Box, Footer as FooterEl, Text, Span, A } from '../html';
+import { Box, Footer as FooterEl, Text, Span, A } from 'styled-system-html';
 
 class Footer extends Component {
 	render() {

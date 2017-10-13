@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Flex, Box, Header as HeaderEl, H1, LinkButton, P, UL, LI, A } from '../html';
+import { Flex, Box, Header as HeaderEl, H1, LinkButton, P, UL, LI, A } from 'styled-system-html';
 
 class Header extends Component {
 	render() {

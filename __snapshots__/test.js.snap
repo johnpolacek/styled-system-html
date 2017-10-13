@@ -2,37 +2,37 @@
 
 exports[`should render a 1`] = `
 <a
-  className="sc-kpOJdX iJMGkT"
+  className="sc-kpOJdX kcHyQx"
 />
 `;
 
 exports[`should render abbr 1`] = `
 <abbr
-  className="sc-eHgmQL gNpgLZ"
+  className="sc-eHgmQL kqukNk"
 />
 `;
 
 exports[`should render article 1`] = `
 <article
-  className="sc-iwsKbI iZmoBQ"
+  className="sc-iwsKbI fzHXAY"
 />
 `;
 
 exports[`should render aside 1`] = `
 <aside
-  className="sc-gZMcBi eLIoCL"
+  className="sc-gZMcBi fogSqI"
 />
 `;
 
 exports[`should render audio 1`] = `
 <audio
-  className="sc-jnlKLf cPuNBI"
+  className="sc-jnlKLf huWUzf"
 />
 `;
 
 exports[`should render blockquote 1`] = `
 <blockquote
-  className="sc-gqjmRU XeeYj"
+  className="sc-gqjmRU gIpHXN"
 />
 `;
 
@@ -45,61 +45,61 @@ exports[`should render box 1`] = `
 
 exports[`should render button 1`] = `
 <button
-  className="sc-fMiknA bMLcaY"
+  className="sc-fMiknA dZEdyC"
 />
 `;
 
 exports[`should render caption 1`] = `
 <caption
-  className="sc-uJMKN bhbEgf"
+  className="sc-uJMKN dtgCxv"
 />
 `;
 
 exports[`should render cite 1`] = `
 <cite
-  className="sc-jWBwVP hYglWH"
+  className="sc-jWBwVP hRNUnv"
 />
 `;
 
 exports[`should render code 1`] = `
 <code
-  className="sc-gPEVay dYZSJx"
+  className="sc-gPEVay ezGzsB"
 />
 `;
 
 exports[`should render col 1`] = `
 <col
-  className="sc-jqCOkK hjlTGp"
+  className="sc-jqCOkK criJtM"
 />
 `;
 
 exports[`should render colgroup 1`] = `
 <colgroup
-  className="sc-dNLxif caUVHH"
+  className="sc-dNLxif dkasoP"
 />
 `;
 
 exports[`should render data 1`] = `
 <data
-  className="sc-cMljjf iQWDdd"
+  className="sc-cMljjf eHDWjh"
 />
 `;
 
 exports[`should render dd 1`] = `
 <dd
-  className="sc-jhAzac dwEcNU"
+  className="sc-jhAzac cQPwYT"
 />
 `;
 
 exports[`should render del 1`] = `
 <del
-  className="sc-iAyFgw dmLQVh"
+  className="sc-iAyFgw kpbKLO"
 />
 `;
 
 exports[`should render dfn 1`] = `
 <dfn
-  className="sc-brqgnP kqWVhz"
+  className="sc-brqgnP jFNqYd"
 />
 `;
 
@@ -112,37 +112,37 @@ exports[`should render div 1`] = `
 
 exports[`should render dl 1`] = `
 <dl
-  className="sc-bRBYWo eBhhOC"
+  className="sc-bRBYWo kTAClo"
 />
 `;
 
 exports[`should render dt 1`] = `
 <dt
-  className="sc-hzDkRC hZlgny"
+  className="sc-hzDkRC kcgUeC"
 />
 `;
 
 exports[`should render em 1`] = `
 <em
-  className="sc-ckVGcZ iVkYBh"
+  className="sc-ckVGcZ eiNulz"
 />
 `;
 
 exports[`should render fieldset 1`] = `
 <fieldset
-  className="sc-caSCKo kykvgk"
+  className="sc-caSCKo brlTHe"
 />
 `;
 
 exports[`should render figcaption 1`] = `
 <figcaption
-  className="sc-jlyJG bbVoDm"
+  className="sc-jlyJG iSpCie"
 />
 `;
 
 exports[`should render figure 1`] = `
 <figure
-  className="sc-iRbamj blIIpj"
+  className="sc-iRbamj lmOkkl"
 />
 `;
 
@@ -155,133 +155,133 @@ exports[`should render flex 1`] = `
 
 exports[`should render footer 1`] = `
 <footer
-  className="sc-htoDjs gpdYIm"
+  className="sc-htoDjs glVWBB"
 />
 `;
 
 exports[`should render form 1`] = `
 <form
-  className="sc-fAjcbJ emHKPt"
+  className="sc-fAjcbJ CUVAf"
 />
 `;
 
 exports[`should render h1 1`] = `
 <h1
-  className="sc-jTzLTM kGzcpX"
+  className="sc-jTzLTM loipK"
 />
 `;
 
 exports[`should render h2 1`] = `
 <h2
-  className="sc-fjdhpX cNGNOP"
+  className="sc-fjdhpX dgiyVw"
 />
 `;
 
 exports[`should render h3 1`] = `
 <h3
-  className="sc-jzJRlG hJgKFi"
+  className="sc-jzJRlG cVPmuf"
 />
 `;
 
 exports[`should render h4 1`] = `
 <h4
-  className="sc-cSHVUG dVZlZg"
+  className="sc-cSHVUG kOHRLT"
 />
 `;
 
 exports[`should render h5 1`] = `
 <h5
-  className="sc-kAzzGY lmObsh"
+  className="sc-kAzzGY GgDJU"
 />
 `;
 
 exports[`should render h6 1`] = `
 <h6
-  className="sc-chPdSV gLiqzZ"
+  className="sc-chPdSV cOUoak"
 />
 `;
 
 exports[`should render header 1`] = `
 <header
-  className="sc-bZQynM eRPioW"
+  className="sc-bZQynM MDkAr"
 />
 `;
 
 exports[`should render hgroup 1`] = `
 <hgroup
-  className="sc-VigVT ebHBRA"
+  className="sc-VigVT eqKDBn"
 />
 `;
 
 exports[`should render image 1`] = `
 <image
-  className="sc-gGBfsJ cqKFSy"
+  className="sc-gGBfsJ hQWQZL"
 />
 `;
 
 exports[`should render img 1`] = `
 <img
-  className="sc-bbmXgH IATeq"
+  className="sc-bbmXgH kwliPx"
 />
 `;
 
 exports[`should render input 1`] = `
 <input
-  className="sc-cHGsZl hFdoYb"
+  className="sc-cHGsZl enqBbK"
 />
 `;
 
 exports[`should render inputsubmit 1`] = `
 <input
-  className="sc-eqIVtm fjcLjH"
+  className="sc-eqIVtm zCgHt"
 />
 `;
 
 exports[`should render label 1`] = `
 <label
-  className="sc-kjoXOD hdbiO"
+  className="sc-kjoXOD bPKkuO"
 />
 `;
 
 exports[`should render legend 1`] = `
 <legend
-  className="sc-gisBJw hLcarJ"
+  className="sc-gisBJw dcMcJG"
 />
 `;
 
 exports[`should render li 1`] = `
 <li
-  className="sc-Rmtcm bDPtWO"
+  className="sc-Rmtcm eglZAm"
 />
 `;
 
 exports[`should render linkbutton 1`] = `
 <a
-  className="sc-dVhcbM bBFsJD"
+  className="sc-dVhcbM djQxUU"
 />
 `;
 
 exports[`should render main 1`] = `
 <main
-  className="sc-gzVnrw gOSHpJ"
+  className="sc-gzVnrw jbtnrY"
 />
 `;
 
 exports[`should render mark 1`] = `
 <mark
-  className="sc-hSdWYo iyoyKI"
+  className="sc-hSdWYo hyRchj"
 />
 `;
 
 exports[`should render nav 1`] = `
 <nav
-  className="sc-fBuWsC ebbvED"
+  className="sc-fBuWsC gdgOwB"
 />
 `;
 
 exports[`should render ol 1`] = `
 <ol
-  className="sc-csuQGl cbSDew"
+  className="sc-csuQGl bgChJc"
 />
 `;
 
@@ -289,138 +289,138 @@ exports[`should render option 1`] = `null`;
 
 exports[`should render p 1`] = `
 <p
-  className="sc-kGXeez kkkupT"
+  className="sc-kGXeez djzptB"
 />
 `;
 
 exports[`should render pre 1`] = `
 <pre
-  className="sc-jDwBTQ kTCAWw"
+  className="sc-jDwBTQ jtQDuv"
 />
 `;
 
 exports[`should render q 1`] = `
 <q
-  className="sc-cvbbAY iFaAgt"
+  className="sc-cvbbAY eaupZT"
 />
 `;
 
 exports[`should render section 1`] = `
 <section
-  className="sc-dnqmqq fhlpxo"
+  className="sc-dnqmqq tXkDO"
 />
 `;
 
 exports[`should render select 1`] = `
 <select
-  className="sc-TOsTZ cfUfBE"
+  className="sc-TOsTZ ffFwZf"
 />
 `;
 
 exports[`should render small 1`] = `
 <small
-  className="sc-eNQAEJ jYupAT"
+  className="sc-eNQAEJ kUrHge"
 />
 `;
 
 exports[`should render span 1`] = `
 <span
-  className="sc-dxgOiQ hcgBDE"
+  className="sc-dxgOiQ gAPuQb"
 />
 `;
 
 exports[`should render strong 1`] = `
 <strong
-  className="sc-jKJlTe kLkLzD"
+  className="sc-jKJlTe gPHbYw"
 />
 `;
 
 exports[`should render sub 1`] = `
 <sub
-  className="sc-hMqMXs hIxFsO"
+  className="sc-hMqMXs dYLgtL"
 />
 `;
 
 exports[`should render sup 1`] = `
 <sup
-  className="sc-kEYyzF kVzwdM"
+  className="sc-kEYyzF hJPlxg"
 />
 `;
 
 exports[`should render table 1`] = `
 <table
-  className="sc-cJSrbW ecgSdx"
+  className="sc-cJSrbW juuSgL"
 />
 `;
 
 exports[`should render tbody 1`] = `
 <tbody
-  className="sc-ksYbfQ cVzOqx"
+  className="sc-ksYbfQ hKjDLE"
 />
 `;
 
 exports[`should render td 1`] = `
 <td
-  className="sc-hqyNC cAsqMB"
+  className="sc-hqyNC emJXjY"
 />
 `;
 
 exports[`should render text 1`] = `
 <p
-  className="sc-kgoBCf MoTOt"
+  className="sc-kgoBCf kktdhb"
 />
 `;
 
 exports[`should render textarea 1`] = `
 <textarea
-  className="sc-kgAjT fpHwes"
+  className="sc-kgAjT eUcZCr"
 />
 `;
 
 exports[`should render tfoot 1`] = `
 <tfoot
-  className="sc-jbKcbu cJezDG"
+  className="sc-jbKcbu dVeLIL"
 />
 `;
 
 exports[`should render th 1`] = `
 <th
-  className="sc-frDJqD daPVDA"
+  className="sc-frDJqD CUJNO"
 />
 `;
 
 exports[`should render thead 1`] = `
 <thead
-  className="sc-hmzhuo eSdLzq"
+  className="sc-hmzhuo YXwmD"
 />
 `;
 
 exports[`should render time 1`] = `
 <time
-  className="sc-jAaTju ulOSU"
+  className="sc-jAaTju cAbaOI"
 />
 `;
 
 exports[`should render tr 1`] = `
 <tr
-  className="sc-kvZOFW owZrO"
+  className="sc-kvZOFW iUdtxL"
 />
 `;
 
 exports[`should render u 1`] = `
 <u
-  className="sc-kkGfuU kJFLiS"
+  className="sc-kkGfuU dtKtDz"
 />
 `;
 
 exports[`should render ul 1`] = `
 <ul
-  className="sc-gipzik dfbDSi"
+  className="sc-gipzik bsyXcN"
 />
 `;
 
 exports[`should render video 1`] = `
 <video
-  className="sc-fYxtnH eHtjsw"
+  className="sc-fYxtnH kiwDsR"
 />
 `;

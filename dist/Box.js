@@ -16,5 +16,5 @@ var _gridStyled = require('grid-styled');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Box = (0, _styledComponents2.default)(_gridStyled.Box)([], _styledSystem.fontSize, _styledSystem.color, _styledSystem.textAlign, _styledSystem.borderColor, _styledSystem.borderWidth, _styledSystem.boxShadow, _styles.height, _styles.maxWidth, _styles.overflow);
+var Box = (0, _styledComponents2.default)(_gridStyled.Box)([], _styledSystem.fontSize, _styledSystem.color, _styledSystem.textAlign, _styledSystem.borderColor, _styledSystem.borderWidth, _styles.borderStyle, _styledSystem.boxShadow, _styles.height, _styles.maxWidth, _styles.overflow, _styles.position, _styles.display);
 exports.default = Box;

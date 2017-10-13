@@ -10,5 +10,5 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Option = _styledComponents2.default.Option;
+var Option = _styledComponents2.default.option;
 exports.default = Option;

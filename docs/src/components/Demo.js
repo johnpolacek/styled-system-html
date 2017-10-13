@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, U, Del, Small, Blockquote, A, Button, UL, OL, LI, Nav, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img } from 'styled-system-html';
-// import { Flex, Box, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Text, Span, Em, Strong, U, Del, Small, Blockquote, A, UL, OL, LI, Nav, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img } from '../html';
 import theme from '../containers/Theme';
 import {
   LiveProvider,
@@ -230,6 +229,13 @@ const code = `
 								Box
 							</Box>
 						</Flex>
+						<Box w={1} p={5} mt={4} mb={2} position="relative" borderWidth="1px" borderColor="gray2" borderStyle="dashed">
+							<Text align="center">Relative Position</Text>
+							<Box px={2} py={1} position="absolute" style={{left:0,top:0}}>Top Left</Box>
+							<Box px={2} py={1} position="absolute" style={{right:0,top:0}}>Top Right</Box>
+							<Box px={2} py={1} position="absolute" style={{left:0,bottom:0}}>Bottom Left</Box>
+							<Box px={2} py={1} position="absolute" style={{right:0,bottom:0}}>Bottom Right</Box>
+						</Box>
 					</Section>
 				</Main>
 				<Footer bg="gray1" px={3} py={5}>

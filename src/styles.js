@@ -6,10 +6,13 @@ import { Flex as _Flex, Box as _Box } from 'grid-styled'
 export const height = responsiveStyle({ prop:'height',cssProperty:'height' })
 export const maxWidth = responsiveStyle({ prop: 'mw', cssProperty: 'maxWidth' })
 export const fontStyle = style({ prop: 'fontStyle', cssProperty: 'fontStyle' })
+export const borderStyle = style({ prop: 'borderStyle', cssProperty: 'borderStyle' })
 export const overflow = responsiveStyle({ prop: 'overflow', cssProperty: 'overflow' })
+export const position = responsiveStyle({ prop: 'position', cssProperty: 'position' })
+export const display = responsiveStyle({ prop: 'display', cssProperty: 'display' })
 
-export const wrapperStyles = css` ${space} ${width} ${height} ${fontStyle} ${fontSize} ${textAlign} ${color} ${maxWidth} ${height} ${boxShadow} ${borderColor} ${borderWidth} ${overflow} `
-export const textStyles = css` ${space} ${width} ${fontWeight} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} `
+export const wrapperStyles = css` ${space} ${width} ${height} ${fontStyle} ${fontSize} ${textAlign} ${color} ${maxWidth} ${height} ${boxShadow} ${borderColor} ${borderWidth} ${borderStyle} ${overflow} ${position} ${display} `
+export const textStyles = css` ${space} ${width} ${fontWeight} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} ${position} ${display} `
 export const textStylesPseudo = css` ${textStyles} ${hover} ${focus} ${active} ${disabled} `
 export const buttonStyles = css`
   display: inline-flex;
@@ -22,4 +25,5 @@ export const buttonStyles = css`
   font-size:16px;
   border:none;
   ${textStylesPseudo}
+  ${borderStyle}
 `
