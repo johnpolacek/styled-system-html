@@ -21,11 +21,11 @@
   "author": "John Polacek",
   "license": "MIT",
   "devDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
     "react-live": "^1.7.1",
     "react-scripts": "1.0.14",
-    "styled-system": "^1.0.7",
+    "styled-system": "^1.1.1",
     "styled-system-html": "^0.1.7",
     "gh-pages": "^1.0.0"
   },
