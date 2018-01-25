@@ -244,7 +244,7 @@ const code = `
 
 					</Section>
 				</Main>
-				<Footer bg="gray1" px={3} py={5}>
+				<Footer bg="gray1" px={3} py={5} borderRadius="4px">
 					<Text color="gray" align="center">A Footer</Text>
 				</Footer>
 			</Box>

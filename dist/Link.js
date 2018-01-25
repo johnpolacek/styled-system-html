@@ -16,5 +16,5 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Image = _styledComponents2.default.img(_templateObject, _styles.wrapperStyles);
-exports.default = Image;
+var Link = _styledComponents2.default.a(_templateObject, _styles.textStylesPseudo);
+exports.default = Link;
