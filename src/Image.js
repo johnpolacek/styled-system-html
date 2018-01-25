@@ -1,5 +1,5 @@
 import styled from 'styled-components'
 import { wrapperStyles } from './styles'
 
-const Image = styled.image` ${wrapperStyles} `
+const Image = styled.img` ${wrapperStyles} `
 export default Image
