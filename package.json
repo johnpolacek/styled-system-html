@@ -1,6 +1,6 @@
 {
   "name": "styled-system-html",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "HTML elements extended as styled components via styled system, ready for theming.",
   "main": "dist/index.js",
   "scripts": {
