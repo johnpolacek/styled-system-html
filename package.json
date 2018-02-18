@@ -19,7 +19,7 @@
   "author": "John Polacek",
   "license": "MIT",
   "dependencies": {
-    "styled-system": "^1.1.1"
+    "styled-system": "^2.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
