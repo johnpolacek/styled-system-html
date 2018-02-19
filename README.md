@@ -1,4 +1,5 @@
 # Styled System HTML
+[![Build Status](https://travis-ci.org/johnpolacek/styled-system-html.svg?branch=master)](https://travis-ci.org/johnpolacek/system-html)
 
 HTML elements extended as styled components via styled system, ready for theming. Built with/for:
 
