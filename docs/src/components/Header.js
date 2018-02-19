@@ -6,7 +6,7 @@ class Header extends Component {
 		return (
 			<HeaderEl bg={'blue'} color="white">
 				<Flex mw="1200px" mx="auto" p={4} wrap="wrap">
-					<Box w={2/3}>
+					<Box w={2/3} pb={2}>
 						<H1 f={6} m={0}>Styled System HTML Elements</H1>
 						<Img position="relative" style={{top:'4px'}} width="80" src="https://travis-ci.org/johnpolacek/styled-system-html.svg?branch=master" alt="branch health status" />
 					</Box>
