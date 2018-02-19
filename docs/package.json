@@ -27,7 +27,7 @@
     "react-live": "^1.7.1",
     "react-scripts": "1.0.14",
     "styled-system": "^2.1.0",
-    "styled-system-html": "^0.1.7"
+    "styled-system-html": "^0.1.9"
   },
   "repository": {
     "type": "git",
