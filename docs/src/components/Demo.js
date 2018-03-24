@@ -231,10 +231,10 @@ const code = `
 						</Flex>
 						<Box w={1} p={5} mt={4} mb={2} position="relative" borderWidth="1px" borderColor="gray2" borderStyle="dashed">
 							<Text align="center">Relative Position</Text>
-							<Box px={2} py={1} position="absolute" style={{left:0,top:0}}>Top Left</Box>
-							<Box px={2} py={1} position="absolute" style={{right:0,top:0}}>Top Right</Box>
-							<Box px={2} py={1} position="absolute" style={{left:0,bottom:0}}>Bottom Left</Box>
-							<Box px={2} py={1} position="absolute" style={{right:0,bottom:0}}>Bottom Right</Box>
+							<Box px={2} py={1} position="absolute" left="0" top="0">Top Left</Box>
+							<Box px={2} py={1} position="absolute" right="0" top="0">Top Right</Box>
+							<Box px={2} py={1} position="absolute" left="0" bottom="0">Bottom Left</Box>
+							<Box px={2} py={1} position="absolute" right="0" bottom="0">Bottom Right</Box>
 						</Box>
 
 						<Box w={1} height="40px" mt={4}>
