@@ -18,8 +18,9 @@ export const top = responsiveStyle({ prop: 'top', cssProperty: 'top' })
 export const right = responsiveStyle({ prop: 'right', cssProperty: 'right' })
 export const bottom = responsiveStyle({ prop: 'bottom', cssProperty: 'bottom' })
 export const left = responsiveStyle({ prop: 'left', cssProperty: 'left' })
+export const background = responsiveStyle({ prop: 'background', cssProperty: 'background' })
 
-export const wrapperStyles = css` ${space} ${width} ${h} ${height} ${mw} ${maxWidth} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} ${borderRadius} ${borderStyle} ${overflow} ${position} ${top} ${right} ${bottom} ${left} ${display} ${float} ${opacity} `
+export const wrapperStyles = css` ${space} ${width} ${h} ${height} ${mw} ${maxWidth} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} ${borderRadius} ${borderStyle} ${overflow} ${position} ${top} ${right} ${bottom} ${left} ${display} ${float} ${opacity} ${background} `
 export const textStyles = css` ${space} ${width} ${h} ${height} ${mw} ${maxWidth} ${fontWeight} ${fontStyle} ${fontSize} ${textAlign} ${color} ${boxShadow} ${borderColor} ${borderWidth} ${position} ${top} ${right} ${bottom} ${left} ${display} ${float} ${opacity} `
 export const textStylesPseudo = css` ${textStyles} ${hover} ${focus} ${active} ${disabled} `
 export const buttonStyles = css`
