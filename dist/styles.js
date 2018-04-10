@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.buttonStyles = exports.textStylesPseudo = exports.textStyles = exports.wrapperStyles = exports.background = exports.left = exports.bottom = exports.right = exports.top = exports.opacity = exports.float = exports.display = exports.position = exports.overflow = exports.borderStyle = exports.fontStyle = exports.mw = exports.maxWidth = exports.h = exports.height = undefined;
+exports.buttonStyles = exports.textStylesPseudo = exports.textStyles = exports.wrapperStyles = exports.backgroundImage = exports.left = exports.bottom = exports.right = exports.top = exports.opacity = exports.float = exports.display = exports.position = exports.overflow = exports.borderStyle = exports.fontStyle = exports.mw = exports.maxWidth = exports.h = exports.height = undefined;
 
 var _templateObject = _taggedTemplateLiteral([' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '], [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']),
     _templateObject2 = _taggedTemplateLiteral([' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '], [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']),
@@ -37,9 +37,9 @@ var top = exports.top = (0, _styledSystem.responsiveStyle)({ prop: 'top', cssPro
 var right = exports.right = (0, _styledSystem.responsiveStyle)({ prop: 'right', cssProperty: 'right' });
 var bottom = exports.bottom = (0, _styledSystem.responsiveStyle)({ prop: 'bottom', cssProperty: 'bottom' });
 var left = exports.left = (0, _styledSystem.responsiveStyle)({ prop: 'left', cssProperty: 'left' });
-var background = exports.background = (0, _styledSystem.responsiveStyle)({ prop: 'background', cssProperty: 'background' });
+var backgroundImage = exports.backgroundImage = (0, _styledSystem.responsiveStyle)({ prop: 'backgroundImage', cssProperty: 'backgroundImage' });
 
-var wrapperStyles = exports.wrapperStyles = (0, _styledComponents.css)(_templateObject, _styledSystem.space, _styledSystem.width, h, height, mw, maxWidth, fontStyle, _styledSystem.fontSize, _styledSystem.textAlign, _styledSystem.color, _styledSystem.boxShadow, _styledSystem.borderColor, _styledSystem.borderWidth, _styledSystem.borderRadius, borderStyle, overflow, position, top, right, bottom, left, display, float, opacity, background);
+var wrapperStyles = exports.wrapperStyles = (0, _styledComponents.css)(_templateObject, _styledSystem.space, _styledSystem.width, h, height, mw, maxWidth, fontStyle, _styledSystem.fontSize, _styledSystem.textAlign, _styledSystem.color, _styledSystem.boxShadow, _styledSystem.borderColor, _styledSystem.borderWidth, _styledSystem.borderRadius, borderStyle, overflow, position, top, right, bottom, left, display, float, opacity, backgroundImage);
 var textStyles = exports.textStyles = (0, _styledComponents.css)(_templateObject2, _styledSystem.space, _styledSystem.width, h, height, mw, maxWidth, _styledSystem.fontWeight, fontStyle, _styledSystem.fontSize, _styledSystem.textAlign, _styledSystem.color, _styledSystem.boxShadow, _styledSystem.borderColor, _styledSystem.borderWidth, position, top, right, bottom, left, display, float, opacity);
 var textStylesPseudo = exports.textStylesPseudo = (0, _styledComponents.css)(_templateObject3, textStyles, _styledSystem.hover, _styledSystem.focus, _styledSystem.active, _styledSystem.disabled);
 var buttonStyles = exports.buttonStyles = (0, _styledComponents.css)(_templateObject4, textStylesPseudo, borderStyle);
