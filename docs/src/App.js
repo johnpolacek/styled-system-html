@@ -16,7 +16,7 @@ class App extends Component {
             <Header />
             <Main mx="auto" p={4} css={{maxWidth:'1200px'}}>
               <H3 pb={3}>Usage</H3>
-              <P pb={2} width={[1,1,1/2]}><Code p={3} bg="gray0" css={{border:'solid 1px',borderColor:theme.colors.gray1}}>npm i styed-system-html-elements</Code></P>
+              <P pb={2} width={[1,1,1/2]}><Code p={3} bg="gray0" css={{border:'solid 1px',borderColor:theme.colors.gray1}}>npm i styed-system-html</Code></P>
               <Flex flexWrap="wrap" pb={[3,3,3,4]}>
                 <Box width={[1,1,1,1/2]} pr={[0,0,0,4]}>
                   <P>Create a <A color="blue" href="https://www.styled-components.com/docs/advanced">theme</A> with <A color="blue" href="http://jxnblk.com/styled-system/api">settings</A> for colors, typography and spacing.</P>
