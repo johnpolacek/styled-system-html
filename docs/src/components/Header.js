@@ -8,8 +8,8 @@ const Header = props =>
 			<Div width={1} textAlign="center">
 				<H1 fontSize={6} pb={1}>&lt;/&gt; Styled System HTML Elements</H1>
 				<P>HTML elements extended as components, ready for theming via styled system.</P>
-				<P mt={-2} pb={4}>Built with/for <A color="blue" fontWeight="bold" href="http://styled-components.com">Styled Components</A> &amp; <A color="blue" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A></P>
-				<Button fontSize={2} is="a" href="https://github.com/johnpolacek/styled-system-html/" bg='blue8'>View on Github</Button>
+				<P mt={-2} pb={3}>Built with/for <A color="blue" fontWeight="bold" href="http://styled-components.com">Styled Components</A> &amp; <A color="blue" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A></P>
+				<Button fontSize={2} is="a" href="https://github.com/johnpolacek/styled-system-html/" bg='blue'>View on Github</Button>
 			</Div>
 		</Div>
 	</Div>
