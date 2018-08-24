@@ -1,24 +1,19 @@
-import React, { Component } from 'react';
-import { Box, Footer as FooterEl, Text, Span, A } from 'styled-system-html';
+import React from 'react';
+import { Div, P, Span, A } from 'styled-system-html';
 
-class Footer extends Component {
-	render() {
-		return (
-			<FooterEl mw="1200px" mx="auto" align='center' py={5} px={4}>
-				<Box p={3} borderWidth="1px" borderColor="gray1" borderTop>
-					<Text color="gray">
-						Created by John Polacek
-						<Span px={3}> | </Span>
-						<A color="base" href="https://twitter.com/johnpolacek">@johnpolacek</A>
-						<Span px={3}> | </Span>
-						<A color="base" href="http://johnpolacek.com">johnpolacek.com</A>
-						<Span px={3}> | </Span>
-						<A color="base" href="https://github.com/johnpolacek">github/johnpolacek</A>
-					</Text>
-				</Box>
-			</FooterEl>
-		);
-	}
-}
+const Footer = props =>
+	<Div is="footer" mx="auto" py={5} px={4} css={{maxWidth:'1200px',textAlign:'center'}}>
+		<Div p={3} borderTop="solid 1px gray1">
+			<P color="gray">
+				Created by John Polacek
+				<Span px={3}> | </Span>
+				<A color="base" href="https://twitter.com/johnpolacek">@johnpolacek</A>
+				<Span px={3}> | </Span>
+				<A color="base" href="http://johnpolacek.com">johnpolacek.com</A>
+				<Span px={3}> | </Span>
+				<A color="base" href="https://github.com/johnpolacek">github/johnpolacek</A>
+			</P>
+		</Div>
+	</Div>
 
 export default Footer;

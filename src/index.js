@@ -1,76 +1,96 @@
-export {default as Flex} from './Flex'
-export {default as Box} from './Box'
-export {default as Div} from './Div'
-export {default as Header} from './Header'
-export {default as Main} from './Main'
-export {default as Footer} from './Footer'
+import React from 'react'
+import tags from 'html-tags'
+import system from 'system-components'
 
-export {default as Section} from './Section'
-export {default as Article} from './Article'
-export {default as Aside} from './Aside'
-export {default as Blockquote} from './Blockquote'
-export {default as HGroup} from './HGroup'
-export {default as H1} from './H1'
-export {default as H2} from './H2'
-export {default as H3} from './H3'
-export {default as H4} from './H4'
-export {default as H5} from './H5'
-export {default as H6} from './H6'
-export {default as Text} from './Text'
-export {default as P} from './P'
-export {default as A} from './A'
-export {default as Span} from './Span'
-export {default as Em} from './Em'
-export {default as Strong} from './Strong'
-export {default as Small} from './Small'
-export {default as Sub} from './Sub'
-export {default as Sup} from './Sup'
-export {default as U} from './U'
-export {default as Del} from './Del'
-export {default as Mark} from './Mark'
-export {default as Abbr} from './Abbr'
-export {default as Q} from './Q'
-export {default as Cite} from './Cite'
-export {default as Dfn} from './Dfn'
-export {default as Data} from './Data'
-export {default as Time} from './Time'
-export {default as Pre} from './Pre'
-export {default as Code} from './Code'
-export {default as Figure} from './Figure'
-export {default as FigCaption} from './FigCaption'
-export {default as UL} from './UL'
-export {default as OL} from './OL'
-export {default as LI} from './LI'
-export {default as DL} from './DL'
-export {default as DT} from './DT'
-export {default as DD} from './DD'
+const El = system(
+	'space',
+	'width',
+	'fontSize',
+	'textColor',
+	'bgColor',
+	'color',
+	// typography
+	'fontFamily',
+	'textAlign',
+	'lineHeight',
+	'fontWeight',
+	'letterSpacing',
+	// layout
+	'display',
+	'maxWidth',
+	'minWidth',
+	'height',
+	'maxHeight',
+	'minHeight',
+	'size',
+	'ratio',
+	'verticalAlign',
+	// flexbox
+	'alignItems',
+	'alignContent',
+	'justifyContent',
+	'flexWrap',
+	'flexDirection',
+	'flex',
+	'flexBasis',
+	'justifySelf',
+	'alignSelf',
+	'order',
+	// grid
+	'gridGap',
+	'gridColumnGap',
+	'gridRowGap',
+	'gridColumn',
+	'gridRow',
+	'gridAutoFlow',
+	'gridAutoColumns',
+	'gridAutoRows',
+	'gridTemplateColumns',
+	'gridTemplateRows',
+	// borders
+	'border',
+	'borderTop',
+	'borderRight',
+	'borderBottom',
+	'borderLeft',
+	'borders',
+	'borderColor',
+	'borderRadius',
+	// misc
+	'boxShadow',
+	'opacity',
+	'background',
+	'backgroundImage',
+	'backgroundSize',
+	'backgroundPosition',
+	'backgroundRepeat',
+	// position
+	'position',
+	'zIndex',
+	'top',
+	'right',
+	'bottom',
+	'left',
+	// variants
+	'textStyle',
+	'colorStyle',
+	'buttonStyle'
+)
 
-export {default as Nav} from './Nav'
-export {default as Button} from './Button'
-export {default as LinkButton} from './LinkButton'
-export {default as InputSubmit} from './InputSubmit'
+tags.forEach(tag => {
+    module.exports[tag.charAt(0).toUpperCase() + tag.slice(1)] = props => <El is={tag} {...props} />
+})
 
-export {default as Form} from './Form'
-export {default as Fieldset} from './Fieldset'
-export {default as Legend} from './Legend'
-export {default as Label} from './Label'
-export {default as Input} from './Input'
-export {default as Select} from './Select'
-export {default as Option} from './Option'
-export {default as TextArea} from './TextArea'
-
-export {default as Table} from './Table'
-export {default as TBody} from './TBody'
-export {default as THead} from './THead'
-export {default as TH} from './TH'
-export {default as TR} from './TR'
-export {default as TD} from './TD'
-export {default as TFoot} from './TFoot'
-export {default as ColGroup} from './ColGroup'
-export {default as Col} from './Col'
-export {default as Caption} from './Caption'
-
-export {default as Img} from './Img'
-export {default as Image} from './Image'
-export {default as Audio} from './Audio'
-export {default as Video} from './Video'
+module.exports['Text'] = props => <El is={'p'} {...props} />
+module.exports['UL'] = props => <El is={'ul'} {...props} />
+module.exports['OL'] = props => <El is={'ol'} {...props} />
+module.exports['LI'] = props => <El is={'li'} {...props} />
+module.exports['DL'] = props => <El is={'dl'} {...props} />
+module.exports['DT'] = props => <El is={'dt'} {...props} />
+module.exports['THead'] = props => <El is={'thead'} {...props} />
+module.exports['TBody'] = props => <El is={'tbody'} {...props} />
+module.exports['TH'] = props => <El is={'th'} {...props} />
+module.exports['TR'] = props => <El is={'tr'} {...props} />
+module.exports['TD'] = props => <El is={'td'} {...props} />
+module.exports['TextArea'] = props => <El is={'textarea'} {...props} />
+module.exports['FigCaption'] = props => <El is={'figcaption'} {...props} />

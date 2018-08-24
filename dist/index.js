@@ -1,646 +1,101 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _Flex = require('./Flex');
+var _react = require('react');
 
-Object.defineProperty(exports, 'Flex', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Flex).default;
-  }
-});
+var _react2 = _interopRequireDefault(_react);
 
-var _Box = require('./Box');
+var _htmlTags = require('html-tags');
 
-Object.defineProperty(exports, 'Box', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Box).default;
-  }
-});
+var _htmlTags2 = _interopRequireDefault(_htmlTags);
 
-var _Div = require('./Div');
+var _systemComponents = require('system-components');
 
-Object.defineProperty(exports, 'Div', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Div).default;
-  }
-});
-
-var _Header = require('./Header');
-
-Object.defineProperty(exports, 'Header', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Header).default;
-  }
-});
-
-var _Main = require('./Main');
-
-Object.defineProperty(exports, 'Main', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Main).default;
-  }
-});
-
-var _Footer = require('./Footer');
-
-Object.defineProperty(exports, 'Footer', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Footer).default;
-  }
-});
-
-var _Section = require('./Section');
-
-Object.defineProperty(exports, 'Section', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Section).default;
-  }
-});
-
-var _Article = require('./Article');
-
-Object.defineProperty(exports, 'Article', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Article).default;
-  }
-});
-
-var _Aside = require('./Aside');
-
-Object.defineProperty(exports, 'Aside', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Aside).default;
-  }
-});
-
-var _Blockquote = require('./Blockquote');
-
-Object.defineProperty(exports, 'Blockquote', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Blockquote).default;
-  }
-});
-
-var _HGroup = require('./HGroup');
-
-Object.defineProperty(exports, 'HGroup', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_HGroup).default;
-  }
-});
-
-var _H = require('./H1');
-
-Object.defineProperty(exports, 'H1', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_H).default;
-  }
-});
-
-var _H2 = require('./H2');
-
-Object.defineProperty(exports, 'H2', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_H2).default;
-  }
-});
-
-var _H3 = require('./H3');
-
-Object.defineProperty(exports, 'H3', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_H3).default;
-  }
-});
-
-var _H4 = require('./H4');
-
-Object.defineProperty(exports, 'H4', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_H4).default;
-  }
-});
-
-var _H5 = require('./H5');
-
-Object.defineProperty(exports, 'H5', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_H5).default;
-  }
-});
-
-var _H6 = require('./H6');
-
-Object.defineProperty(exports, 'H6', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_H6).default;
-  }
-});
-
-var _Text = require('./Text');
-
-Object.defineProperty(exports, 'Text', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Text).default;
-  }
-});
-
-var _P = require('./P');
-
-Object.defineProperty(exports, 'P', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_P).default;
-  }
-});
-
-var _A = require('./A');
-
-Object.defineProperty(exports, 'A', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_A).default;
-  }
-});
-
-var _Span = require('./Span');
-
-Object.defineProperty(exports, 'Span', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Span).default;
-  }
-});
-
-var _Em = require('./Em');
-
-Object.defineProperty(exports, 'Em', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Em).default;
-  }
-});
-
-var _Strong = require('./Strong');
-
-Object.defineProperty(exports, 'Strong', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Strong).default;
-  }
-});
-
-var _Small = require('./Small');
-
-Object.defineProperty(exports, 'Small', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Small).default;
-  }
-});
-
-var _Sub = require('./Sub');
-
-Object.defineProperty(exports, 'Sub', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Sub).default;
-  }
-});
-
-var _Sup = require('./Sup');
-
-Object.defineProperty(exports, 'Sup', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Sup).default;
-  }
-});
-
-var _U = require('./U');
-
-Object.defineProperty(exports, 'U', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_U).default;
-  }
-});
-
-var _Del = require('./Del');
-
-Object.defineProperty(exports, 'Del', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Del).default;
-  }
-});
-
-var _Mark = require('./Mark');
-
-Object.defineProperty(exports, 'Mark', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Mark).default;
-  }
-});
-
-var _Abbr = require('./Abbr');
-
-Object.defineProperty(exports, 'Abbr', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Abbr).default;
-  }
-});
-
-var _Q = require('./Q');
-
-Object.defineProperty(exports, 'Q', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Q).default;
-  }
-});
-
-var _Cite = require('./Cite');
-
-Object.defineProperty(exports, 'Cite', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Cite).default;
-  }
-});
-
-var _Dfn = require('./Dfn');
-
-Object.defineProperty(exports, 'Dfn', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Dfn).default;
-  }
-});
-
-var _Data = require('./Data');
-
-Object.defineProperty(exports, 'Data', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Data).default;
-  }
-});
-
-var _Time = require('./Time');
-
-Object.defineProperty(exports, 'Time', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Time).default;
-  }
-});
-
-var _Pre = require('./Pre');
-
-Object.defineProperty(exports, 'Pre', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Pre).default;
-  }
-});
-
-var _Code = require('./Code');
-
-Object.defineProperty(exports, 'Code', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Code).default;
-  }
-});
-
-var _Figure = require('./Figure');
-
-Object.defineProperty(exports, 'Figure', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Figure).default;
-  }
-});
-
-var _FigCaption = require('./FigCaption');
-
-Object.defineProperty(exports, 'FigCaption', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_FigCaption).default;
-  }
-});
-
-var _UL = require('./UL');
-
-Object.defineProperty(exports, 'UL', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_UL).default;
-  }
-});
-
-var _OL = require('./OL');
-
-Object.defineProperty(exports, 'OL', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_OL).default;
-  }
-});
-
-var _LI = require('./LI');
-
-Object.defineProperty(exports, 'LI', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_LI).default;
-  }
-});
-
-var _DL = require('./DL');
-
-Object.defineProperty(exports, 'DL', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_DL).default;
-  }
-});
-
-var _DT = require('./DT');
-
-Object.defineProperty(exports, 'DT', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_DT).default;
-  }
-});
-
-var _DD = require('./DD');
-
-Object.defineProperty(exports, 'DD', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_DD).default;
-  }
-});
-
-var _Nav = require('./Nav');
-
-Object.defineProperty(exports, 'Nav', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Nav).default;
-  }
-});
-
-var _Button = require('./Button');
-
-Object.defineProperty(exports, 'Button', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Button).default;
-  }
-});
-
-var _LinkButton = require('./LinkButton');
-
-Object.defineProperty(exports, 'LinkButton', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_LinkButton).default;
-  }
-});
-
-var _InputSubmit = require('./InputSubmit');
-
-Object.defineProperty(exports, 'InputSubmit', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_InputSubmit).default;
-  }
-});
-
-var _Form = require('./Form');
-
-Object.defineProperty(exports, 'Form', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Form).default;
-  }
-});
-
-var _Fieldset = require('./Fieldset');
-
-Object.defineProperty(exports, 'Fieldset', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Fieldset).default;
-  }
-});
-
-var _Legend = require('./Legend');
-
-Object.defineProperty(exports, 'Legend', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Legend).default;
-  }
-});
-
-var _Label = require('./Label');
-
-Object.defineProperty(exports, 'Label', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Label).default;
-  }
-});
-
-var _Input = require('./Input');
-
-Object.defineProperty(exports, 'Input', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Input).default;
-  }
-});
-
-var _Select = require('./Select');
-
-Object.defineProperty(exports, 'Select', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Select).default;
-  }
-});
-
-var _Option = require('./Option');
-
-Object.defineProperty(exports, 'Option', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Option).default;
-  }
-});
-
-var _TextArea = require('./TextArea');
-
-Object.defineProperty(exports, 'TextArea', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_TextArea).default;
-  }
-});
-
-var _Table = require('./Table');
-
-Object.defineProperty(exports, 'Table', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Table).default;
-  }
-});
-
-var _TBody = require('./TBody');
-
-Object.defineProperty(exports, 'TBody', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_TBody).default;
-  }
-});
-
-var _THead = require('./THead');
-
-Object.defineProperty(exports, 'THead', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_THead).default;
-  }
-});
-
-var _TH = require('./TH');
-
-Object.defineProperty(exports, 'TH', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_TH).default;
-  }
-});
-
-var _TR = require('./TR');
-
-Object.defineProperty(exports, 'TR', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_TR).default;
-  }
-});
-
-var _TD = require('./TD');
-
-Object.defineProperty(exports, 'TD', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_TD).default;
-  }
-});
-
-var _TFoot = require('./TFoot');
-
-Object.defineProperty(exports, 'TFoot', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_TFoot).default;
-  }
-});
-
-var _ColGroup = require('./ColGroup');
-
-Object.defineProperty(exports, 'ColGroup', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_ColGroup).default;
-  }
-});
-
-var _Col = require('./Col');
-
-Object.defineProperty(exports, 'Col', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Col).default;
-  }
-});
-
-var _Caption = require('./Caption');
-
-Object.defineProperty(exports, 'Caption', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Caption).default;
-  }
-});
-
-var _Img = require('./Img');
-
-Object.defineProperty(exports, 'Img', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Img).default;
-  }
-});
-
-var _Image = require('./Image');
-
-Object.defineProperty(exports, 'Image', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Image).default;
-  }
-});
-
-var _Audio = require('./Audio');
-
-Object.defineProperty(exports, 'Audio', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Audio).default;
-  }
-});
-
-var _Video = require('./Video');
-
-Object.defineProperty(exports, 'Video', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Video).default;
-  }
-});
+var _systemComponents2 = _interopRequireDefault(_systemComponents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var El = (0, _systemComponents2.default)('space', 'width', 'fontSize', 'textColor', 'bgColor', 'color',
+// typography
+'fontFamily', 'textAlign', 'lineHeight', 'fontWeight', 'letterSpacing',
+// layout
+'display', 'maxWidth', 'minWidth', 'height', 'maxHeight', 'minHeight', 'size', 'ratio', 'verticalAlign',
+// flexbox
+'alignItems', 'alignContent', 'justifyContent', 'flexWrap', 'flexDirection', 'flex', 'flexBasis', 'justifySelf', 'alignSelf', 'order',
+// grid
+'gridGap', 'gridColumnGap', 'gridRowGap', 'gridColumn', 'gridRow', 'gridAutoFlow', 'gridAutoColumns', 'gridAutoRows', 'gridTemplateColumns', 'gridTemplateRows',
+// borders
+'border', 'borderTop', 'borderRight', 'borderBottom', 'borderLeft', 'borders', 'borderColor', 'borderRadius',
+// misc
+'boxShadow', 'opacity', 'background', 'backgroundImage', 'backgroundSize', 'backgroundPosition', 'backgroundRepeat',
+// position
+'position', 'zIndex', 'top', 'right', 'bottom', 'left',
+// variants
+'textStyle', 'colorStyle', 'buttonStyle');
+
+_htmlTags2.default.forEach(function (tag) {
+	module.exports[tag.charAt(0).toUpperCase() + tag.slice(1)] = function (props) {
+		return _react2.default.createElement(El, _extends({ is: tag }, props));
+	};
+});
+
+module.exports['Text'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'p' }, props));
+};
+module.exports['UL'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'ul' }, props));
+};
+module.exports['OL'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'ol' }, props));
+};
+module.exports['LI'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'li' }, props));
+};
+module.exports['DL'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'dl' }, props));
+};
+module.exports['DT'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'dt' }, props));
+};
+module.exports['THead'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'thead' }, props));
+};
+module.exports['TBody'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'tbody' }, props));
+};
+module.exports['TH'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'th' }, props));
+};
+module.exports['TR'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'tr' }, props));
+};
+module.exports['TD'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'td' }, props));
+};
+module.exports['TextArea'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'textarea' }, props));
+};
+module.exports['FigCaption'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'figcaption' }, props));
+};
+
+// import SuperBox from 'superbox'
+
+// tags.forEach(tag => {
+//     module.exports[tag.charAt(0).toUpperCase() + tag.slice(1)] = props => <SuperBox is={tag} {...props} />
+// })
+
+// module.exports['Text'] = props => <SuperBox is={'p'} {...props} />
+// module.exports['UL'] = props => <SuperBox is={'ul'} {...props} />
+// module.exports['OL'] = props => <SuperBox is={'ol'} {...props} />
+// module.exports['LI'] = props => <SuperBox is={'li'} {...props} />
+// module.exports['DL'] = props => <SuperBox is={'dl'} {...props} />
+// module.exports['DT'] = props => <SuperBox is={'dt'} {...props} />
+// module.exports['THead'] = props => <SuperBox is={'thead'} {...props} />
+// module.exports['TBody'] = props => <SuperBox is={'tbody'} {...props} />
+// module.exports['TH'] = props => <SuperBox is={'th'} {...props} />
+// module.exports['TR'] = props => <SuperBox is={'tr'} {...props} />
+// module.exports['TD'] = props => <SuperBox is={'td'} {...props} />
+// module.exports['TextArea'] = props => <SuperBox is={'textarea'} {...props} />
+// module.exports['FigCaption'] = props => <SuperBox is={'figcaption'} {...props} />

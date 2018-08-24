@@ -1,37 +1,20 @@
 {
-  "name": "styled-system-html-docs",
-  "version": "0.1.2",
-  "description": "HTML elements extended as styled components via styled system, ready for theming.",
-  "main": "src/html.js",
+  "name": "docs",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "grid-styled": "^5.0.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-live": "^1.11.0",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.4.2",
+    "styled-system-html": "^1.0.3"
+  },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "keywords": [
-    "react",
-    "css-in-js",
-    "styled-components",
-    "styled-system",
-    "glamorous"
-  ],
-  "author": "John Polacek",
-  "license": "MIT",
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-live": "^1.7.1",
-    "react-scripts": "1.0.14",
-    "styled-system": "^2.1.0",
-    "styled-system-html": "^0.1.9"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnpolacek/styled-system-html.git"
-  },
-  "homepage": "http://johnpolacek.github.io/styled-system-html"
+  }
 }

@@ -1,423 +1,787 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should render DL 1`] = `
+<dl
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render DT 1`] = `
+<dt
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render FigCaption 1`] = `
+<figcaption
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render LI 1`] = `
+<li
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render OL 1`] = `
+<ol
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render TBody 1`] = `
+<tbody
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render TD 1`] = `
+<td
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render TH 1`] = `
+<th
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render THead 1`] = `
+<thead
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render TR 1`] = `
+<tr
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render Text 1`] = `
+<p
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render TextArea 1`] = `
+<textarea
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render UL 1`] = `
+<ul
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
 exports[`should render a 1`] = `
 <a
-  className="sc-kGXeez jzaFED"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render abbr 1`] = `
 <abbr
-  className="sc-hSdWYo bgbEef"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render address 1`] = `
+<address
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render area 1`] = `
+<area
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render article 1`] = `
 <article
-  className="sc-dnqmqq dslgzs"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render aside 1`] = `
 <aside
-  className="sc-iwsKbI bbZrfC"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render audio 1`] = `
 <audio
-  className="sc-gGBfsJ cnmWrr"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render b 1`] = `
+<b
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render base 1`] = `
+<base
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render bdi 1`] = `
+<bdi
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render bdo 1`] = `
+<bdo
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render blockquote 1`] = `
 <blockquote
-  className="sc-gZMcBi lfUJQc"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
-exports[`should render box 1`] = `
-<div
-  className="sc-bxivhb ECKhF"
+exports[`should render body 1`] = `
+<body
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render br 1`] = `
+<br
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render button 1`] = `
 <button
-  className="sc-fBuWsC mXWZe"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render canvas 1`] = `
+<canvas
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render caption 1`] = `
 <caption
-  className="sc-jqCOkK dNhgaN"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render cite 1`] = `
 <cite
-  className="sc-cvbbAY cNZbqa"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render code 1`] = `
 <code
-  className="sc-jDwBTQ cffMwB"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render col 1`] = `
 <col
-  className="sc-dNLxif fpLcNH"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render colgroup 1`] = `
 <colgroup
-  className="sc-jbKcbu hXttto"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render data 1`] = `
 <data
-  className="sc-brqgnP dgnERZ"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render datalist 1`] = `
+<datalist
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render dd 1`] = `
 <dd
-  className="sc-hzDkRC gRxfXC"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render del 1`] = `
 <del
-  className="sc-kkGfuU fNJInZ"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render details 1`] = `
+<details
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render dfn 1`] = `
 <dfn
-  className="sc-jWBwVP dhddiu"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render dialog 1`] = `
+<dialog
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render div 1`] = `
 <div
-  className="sc-ifAKCX cNDjqY"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render dl 1`] = `
 <dl
-  className="sc-Rmtcm hARrga"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render dt 1`] = `
 <dt
-  className="sc-bRBYWo beDnjV"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render em 1`] = `
 <em
-  className="sc-dxgOiQ ciquOb"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render embed 1`] = `
+<embed
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render fieldset 1`] = `
 <fieldset
-  className="sc-fAjcbJ jFLzRG"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render figcaption 1`] = `
 <figcaption
-  className="sc-iRbamj gnYQnI"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render figure 1`] = `
 <figure
-  className="sc-gPEVay cExxWY"
-/>
-`;
-
-exports[`should render flex 1`] = `
-<div
-  className="sc-htpNat dNmUdn"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render footer 1`] = `
 <footer
-  className="sc-gzVnrw ivfnSy"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render form 1`] = `
 <form
-  className="sc-eqIVtm ervwWJ"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render h1 1`] = `
 <h1
-  className="sc-VigVT iDkhhq"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render h2 1`] = `
 <h2
-  className="sc-jTzLTM criEjn"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render h3 1`] = `
 <h3
-  className="sc-fjdhpX ekIcbt"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render h4 1`] = `
 <h4
-  className="sc-jzJRlG bEbDqy"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render h5 1`] = `
 <h5
-  className="sc-cSHVUG kRIGMk"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render h6 1`] = `
 <h6
-  className="sc-kAzzGY iFQHDL"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render head 1`] = `
+<head
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render header 1`] = `
 <header
-  className="sc-EHOje fTpcdG"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render hgroup 1`] = `
 <hgroup
-  className="sc-gqjmRU kEFIbu"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
-exports[`should render image 1`] = `
-<img
-  className="sc-bbmXgH bKVzHH"
+exports[`should render hr 1`] = `
+<hr
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render html 1`] = `
+<html
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render i 1`] = `
+<i
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render iframe 1`] = `
+<iframe
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render img 1`] = `
 <img
-  className="sc-uJMKN clHsLP"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render input 1`] = `
 <input
-  className="sc-kjoXOD KBSkZ"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
-exports[`should render inputsubmit 1`] = `
-<input
-  className="sc-dVhcbM bpKeLO"
+exports[`should render ins 1`] = `
+<ins
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render kbd 1`] = `
+<kbd
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render keygen 1`] = `
+<keygen
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render label 1`] = `
 <label
-  className="sc-gisBJw ffApDV"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render legend 1`] = `
 <legend
-  className="sc-caSCKo esMbcR"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render li 1`] = `
 <li
-  className="sc-csuQGl iYirto"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
-exports[`should render linkbutton 1`] = `
-<a
-  className="sc-fMiknA cLoDha"
+exports[`should render link 1`] = `
+<link
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render main 1`] = `
 <main
-  className="sc-bZQynM kKlCGU"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render map 1`] = `
+<map
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render mark 1`] = `
 <mark
-  className="sc-iAyFgw ezLHvh"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render math 1`] = `
+<math
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render menu 1`] = `
+<menu
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render menuitem 1`] = `
+<menuitem
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render meta 1`] = `
+<meta
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render meter 1`] = `
+<meter
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render nav 1`] = `
 <nav
-  className="sc-jhAzac gDcOWo"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render noscript 1`] = `
+<noscript
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render object 1`] = `
+<object
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render ol 1`] = `
 <ol
-  className="sc-gipzik fwSVTb"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
-exports[`should render option 1`] = `null`;
+exports[`should render optgroup 1`] = `
+<optgroup
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render option 1`] = `
+<option
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render output 1`] = `
+<output
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
 
 exports[`should render p 1`] = `
 <p
-  className="sc-kgoBCf fcaEbw"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render param 1`] = `
+<param
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render picture 1`] = `
+<picture
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render pre 1`] = `
 <pre
-  className="sc-jAaTju jbvUAg"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render progress 1`] = `
+<progress
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render q 1`] = `
 <q
-  className="sc-eHgmQL bXHnTU"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render rb 1`] = `
+<rb
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render rp 1`] = `
+<rp
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render rt 1`] = `
+<rt
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render rtc 1`] = `
+<rtc
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render ruby 1`] = `
+<ruby
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render s 1`] = `
+<s
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render samp 1`] = `
+<samp
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render script 1`] = `
+<script
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render section 1`] = `
 <section
-  className="sc-htoDjs bqvIQH"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render select 1`] = `
 <select
-  className="sc-cHGsZl jNiRUF"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render slot 1`] = `
+<slot
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render small 1`] = `
 <small
-  className="sc-jKJlTe dfwGwj"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render source 1`] = `
+<source
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render span 1`] = `
 <span
-  className="sc-kpOJdX cRofWh"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render strong 1`] = `
 <strong
-  className="sc-ckVGcZ fVOuLm"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render style 1`] = `
+<style
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render sub 1`] = `
 <sub
-  className="sc-eNQAEJ bWqXSa"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render summary 1`] = `
+<summary
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render sup 1`] = `
 <sup
-  className="sc-hMqMXs clnLgV"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render svg 1`] = `
+<svg
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render table 1`] = `
 <table
-  className="sc-kgAjT cGuDhg"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render tbody 1`] = `
 <tbody
-  className="sc-cJSrbW bOStKk"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render td 1`] = `
 <td
-  className="sc-kvZOFW hqqlGS"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
-exports[`should render text 1`] = `
-<p
-  className="sc-chPdSV bwSfnI"
+exports[`should render template 1`] = `
+<template
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render textarea 1`] = `
 <textarea
-  className="sc-TOsTZ gaXuNz"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render tfoot 1`] = `
 <tfoot
-  className="sc-hqyNC llNHjJ"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render th 1`] = `
 <th
-  className="sc-hmzhuo cjXpZt"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render thead 1`] = `
 <thead
-  className="sc-ksYbfQ eHgfhA"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render time 1`] = `
 <time
-  className="sc-cMljjf iIhkwM"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render title 1`] = `
+<title
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render tr 1`] = `
 <tr
-  className="sc-frDJqD bNhsim"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render track 1`] = `
+<track
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render u 1`] = `
 <u
-  className="sc-kEYyzF jCCqPv"
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render ul 1`] = `
 <ul
-  className="sc-jlyJG jsufcm"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render var 1`] = `
+<var
+  className="sc-bdVaJa bDWFJH"
 />
 `;
 
 exports[`should render video 1`] = `
 <video
-  className="sc-jnlKLf bVmrgH"
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
+exports[`should render wbr 1`] = `
+<wbr
+  className="sc-bdVaJa bDWFJH"
 />
 `;

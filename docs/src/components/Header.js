@@ -1,29 +1,17 @@
-import React, { Component } from 'react';
-import { Flex, Box, Header as HeaderEl, H1, LinkButton, P, UL, LI, A, Img } from 'styled-system-html';
+import React from 'react'
+import { Div, H1, P, Ul, Li, A, Img } from 'styled-system-html'
+import Button from './Button'
 
-class Header extends Component {
-	render() {
-		return (
-			<HeaderEl bg={'blue'} color="white">
-				<Flex mw="1200px" mx="auto" p={4} wrap="wrap">
-					<Box w={2/3} pb={2}>
-						<H1 f={6} m={0}>Styled System HTML Elements</H1>
-						<Img position="relative" style={{top:'4px'}} width="80" src="https://travis-ci.org/johnpolacek/styled-system-html.svg?branch=master" alt="branch health status" />
-					</Box>
-					<Box w={1/3} align="right">
-						<LinkButton href="https://github.com/johnpolacek/styled-system-html/" bg={'blue8'}>View on Github</LinkButton>
-					</Box>
-					<Box w={1}>
-						<P p={0}>HTML elements extended as styled components via styled system, ready for theming. Built with/for:</P>
-			      		<UL>
-			      			<LI pb={1}><A color="white" fontWeight="bold" href="http://styled-components.com">Styled Components</A></LI>
-			      			<LI pb={1}><A color="white" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A> by <A color="white" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A></LI>
-			      		</UL>
-					</Box>
-				</Flex>		
-			</HeaderEl>
-		);
-	}
-}
+const Header = props =>
+	<Div is='header'>
+		<Div mx="auto" css={{maxWidth:'960px'}} pt={4} pb={2}>
+			<Div width={1} textAlign="center">
+				<H1 fontSize={6} pb={1}>&lt;/&gt; Styled System HTML Elements</H1>
+				<P>HTML elements extended as components, ready for theming via styled system.</P>
+				<P mt={-2} pb={4}>Built with/for <A color="blue" fontWeight="bold" href="http://styled-components.com">Styled Components</A> &amp; <A color="blue" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A></P>
+				<Button fontSize={2} is="a" href="https://github.com/johnpolacek/styled-system-html/" bg='blue8'>View on Github</Button>
+			</Div>
+		</Div>
+	</Div>
 
-export default Header;
+export default Header

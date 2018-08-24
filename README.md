@@ -1,18 +1,13 @@
 # Styled System HTML
 [![Build Status](https://travis-ci.org/johnpolacek/styled-system-html.svg?branch=master)](https://travis-ci.org/johnpolacek/system-html)
 
-HTML elements extended as styled components via styled system, ready for theming. Built with/for:
-
-- [Styled Components](http://styled-components.com)
-- [Styled System](http://jxnblk.com/styled-system/) by [Brent Jackson](http://jxnblk.com)
-- [Grid Styled](http://jxnblk.com/grid-styled/) by [Brent Jackson](http://jxnblk.com)
-
+HTML elements extended as components, ready for theming via styled system. Built with/for [Styled Components](http://styled-components.com) & [Styled System](http://jxnblk.com/styled-system/)
 
 ## Usage
 
 `npm i styled-system-html`
 
-Create a theme with settings for colors, typography and layout.
+Create a [theme](https://www.styled-components.com/docs/advanced) with [settings](http://jxnblk.com/styled-system/api) for colors, typography and spacing.
 
 ```
 const theme = {
@@ -21,7 +16,7 @@ const theme = {
 }
 ```
 
-Apply your theme to the base elements as you build components.
+Apply your theme to the element components.
 
 ```
 // Header with 2 levels (8px) of padding, 
@@ -31,6 +26,8 @@ Apply your theme to the base elements as you build components.
   My Header
 </Header>
 ```
+
+Try it out at [johnpolacek.github.io/styled-system-html](https://johnpolacek.github.io/styled-system-html/)
 
 For more info, see [Styled System](http://jxnblk.com/styled-system/) by [Brent Jackson](http://jxnblk.com).
 
