@@ -1,5 +1,5 @@
 import React from 'react'
-import { Div, H1, P, Ul, Li, A, Img } from 'styled-system-html'
+import { Div, H1, P, A } from 'styled-system-html'
 import Button from './Button'
 
 const Header = props =>

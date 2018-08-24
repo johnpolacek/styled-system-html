@@ -79,23 +79,3 @@ module.exports['TextArea'] = function (props) {
 module.exports['FigCaption'] = function (props) {
 	return _react2.default.createElement(El, _extends({ is: 'figcaption' }, props));
 };
-
-// import SuperBox from 'superbox'
-
-// tags.forEach(tag => {
-//     module.exports[tag.charAt(0).toUpperCase() + tag.slice(1)] = props => <SuperBox is={tag} {...props} />
-// })
-
-// module.exports['Text'] = props => <SuperBox is={'p'} {...props} />
-// module.exports['UL'] = props => <SuperBox is={'ul'} {...props} />
-// module.exports['OL'] = props => <SuperBox is={'ol'} {...props} />
-// module.exports['LI'] = props => <SuperBox is={'li'} {...props} />
-// module.exports['DL'] = props => <SuperBox is={'dl'} {...props} />
-// module.exports['DT'] = props => <SuperBox is={'dt'} {...props} />
-// module.exports['THead'] = props => <SuperBox is={'thead'} {...props} />
-// module.exports['TBody'] = props => <SuperBox is={'tbody'} {...props} />
-// module.exports['TH'] = props => <SuperBox is={'th'} {...props} />
-// module.exports['TR'] = props => <SuperBox is={'tr'} {...props} />
-// module.exports['TD'] = props => <SuperBox is={'td'} {...props} />
-// module.exports['TextArea'] = props => <SuperBox is={'textarea'} {...props} />
-// module.exports['FigCaption'] = props => <SuperBox is={'figcaption'} {...props} />
