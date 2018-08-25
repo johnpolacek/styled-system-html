@@ -23,6 +23,13 @@ it('should render Text', () => {
 	expect(json).toMatchSnapshot()
 })
 
+it('should render Image', () => {
+	const json = renderJSON(
+			React.createElement(elements['Image'])
+		)
+	expect(json).toMatchSnapshot()
+})
+
 it('should render UL', () => {
 	const json = renderJSON(
 		React.createElement(elements['UL'])

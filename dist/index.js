@@ -43,6 +43,9 @@ _htmlTags2.default.forEach(function (tag) {
 module.exports['Text'] = function (props) {
 	return _react2.default.createElement(El, _extends({ is: 'p' }, props));
 };
+module.exports['Image'] = function (props) {
+	return _react2.default.createElement(El, _extends({ is: 'img' }, props));
+};
 module.exports['UL'] = function (props) {
 	return _react2.default.createElement(El, _extends({ is: 'ul' }, props));
 };

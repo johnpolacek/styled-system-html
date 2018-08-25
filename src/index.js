@@ -82,6 +82,7 @@ tags.forEach(tag => {
 })
 
 module.exports['Text'] = props => <El is={'p'} {...props} />
+module.exports['Image'] = props => <El is={'img'} {...props} />
 module.exports['UL'] = props => <El is={'ul'} {...props} />
 module.exports['OL'] = props => <El is={'ol'} {...props} />
 module.exports['LI'] = props => <El is={'li'} {...props} />

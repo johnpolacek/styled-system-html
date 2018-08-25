@@ -18,6 +18,12 @@ exports[`should render FigCaption 1`] = `
 />
 `;
 
+exports[`should render Image 1`] = `
+<img
+  className="sc-bdVaJa bDWFJH"
+/>
+`;
+
 exports[`should render LI 1`] = `
 <li
   className="sc-bdVaJa bDWFJH"
