@@ -14,20 +14,20 @@ class App extends Component {
         <ThemeProvider theme={theme}>
           <Div>
             <Header />
-            <Main mx="auto" p={4} css={{maxWidth:'1200px'}}>
+            <Main mx="auto" p={4} maxWidth='1200px'>
               <H3 pb={3}>Usage</H3>
-              <P pb={2} width={[1,1,1/2]}><Code p={3} bg="gray0" css={{border:'solid 1px',borderColor:theme.colors.gray1}}>npm i styed-system-html</Code></P>
+              <P pb={2} width={[1,1,1/2]}><Code p={3} bg="gray0" border='1px solid' borderColor="gray1">npm i styed-system-html</Code></P>
               <Flex flexWrap="wrap" pb={[3,3,3,4]}>
                 <Box width={[1,1,1,1/2]} pr={[0,0,0,4]}>
                   <P>Create a <A color="blue" href="https://www.styled-components.com/docs/advanced">theme</A> with <A color="blue" href="http://jxnblk.com/styled-system/api">settings</A> for colors, typography and spacing.</P>
-                  <Pre p={3} bg="gray0" css={{border:'solid 1px',borderColor:theme.colors.gray1}}><Code>{`const theme = {
+                  <Pre p={3} bg="gray0" border='1px solid' borderColor="gray1"><Code>{`const theme = {
   colors : {'primary':'#071'},
   space : [0,4,8,16,32,64,128]
 }`}</Code></Pre>
                 </Box>
                 <Box width={[1,1,1,1/2]} pl={[0,0,0,4]}>
                   <P>Apply your theme to the element components.</P>
-                  <Pre mb={4} p={3} bg="gray0" css={{border:'solid 1px',borderColor:theme.colors.gray1}}><Code>{`<H2 pb={2} color="primary">Hello</H2>`}</Code></Pre>
+                  <Pre mb={4} p={3} bg="gray0" border='1px solid' borderColor="gray1"><Code>{`<H2 pb={2} color="primary">Hello</H2>`}</Code></Pre>
                   <P>For more info, see <A color="blue" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A> by <A color="blue" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A>.</P>
                 </Box>
               </Flex>
