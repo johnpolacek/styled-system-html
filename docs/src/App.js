@@ -27,7 +27,7 @@ class App extends Component {
                 </Box>
                 <Box width={[1,1,1,1/2]} pl={[0,0,0,4]}>
                   <P>Apply your theme to the element components.</P>
-                  <Pre mb={4} p={3} bg="gray0" css={{border:'solid 1px',borderColor:theme.colors.gray1}}><Code>{`<H2 pb={2} color="green">Hello</H2>`}</Code></Pre>
+                  <Pre mb={4} p={3} bg="gray0" css={{border:'solid 1px',borderColor:theme.colors.gray1}}><Code>{`<H2 pb={2} color="primary">Hello</H2>`}</Code></Pre>
                   <P>For more info, see <A color="blue" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A> by <A color="blue" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A>.</P>
                 </Box>
               </Flex>
