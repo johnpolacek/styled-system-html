@@ -79,13 +79,13 @@ const code = `
 							<H3 pb={3}>Stacked Form</H3>
 							<Box pb={3}>
 								<Box pb={1}>
-									<Label htmlFor="textInput" mr={2}>Text Input Label</Label>
+									<Label htmlFor="textInput" mr={2}>Text Input</Label>
 								</Box>
 								<Input type="text" name="textInput" id="textInput" />
 							</Box>
 							<Box pb={3}>
 								<Box pb={1}>
-									<Label htmlFor="select" mr={2}>Select Label</Label>
+									<Label htmlFor="select" mr={2}>Select</Label>
 								</Box>
 								<Select value="" height="28px" name="selectInput" id="selectInput">
 									<option value="">Please select..</option>
@@ -96,7 +96,7 @@ const code = `
 							</Box>
 							<Box pb={3}>
 								<Box pb={1}>
-									<Label htmlFor="textArea" mr={2}>Text Area Label</Label>
+									<Label htmlFor="textArea" mr={2}>Text Area</Label>
 								</Box>
 								<TextArea width={1} height="72px" type="text" name="textArea" id="textArea" />
 							</Box>
@@ -111,7 +111,7 @@ const code = `
 								</Box>
 							</Box>
 							<Box py={3}>
-								<Label htmlFor="checkboxInput" mr={2}><Input type="checkbox" name="checkboxInput" id="checkboxInput" /> Checkbox Input Label</Label>
+								<Label htmlFor="checkboxInput" mr={2}><Input type="checkbox" name="checkboxInput" id="checkboxInput" /> Checkbox Input</Label>
 							</Box>
 							<Box py={3}>
 								<InputSubmit bg="base" type="submit" value="Submit" />
@@ -123,7 +123,7 @@ const code = `
 							<H3 pb={5}>Responsive Inline Form</H3>
 							<Flex alignItems="flex-start" flexWrap="wrap" pb={3}>
 								<Div width={[1,1/3]} py={1} textAlign={['left','right']}>
-									<Label htmlFor="textInput" mr={2}>P Input</Label>
+									<Label htmlFor="textInput" mr={2}>Text Input</Label>
 								</Div>
 								<Div width={[1,2/3]}>
 									<Input type="text" name="textInput" id="textInput" />
@@ -131,7 +131,7 @@ const code = `
 							</Flex>
 							<Flex flexWrap="wrap" pb={3}>
 								<Div width={[1,1/3]} py={1} textAlign={['left','right']}>
-									<Label htmlFor="select" mr={2}>Select Label</Label>
+									<Label htmlFor="select" mr={2}>Select</Label>
 								</Div>
 								<Div width={[1,2/3]}>
 									<Select height="28px" name="selectInput" id="selectInput">
