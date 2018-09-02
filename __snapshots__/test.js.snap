@@ -68,7 +68,7 @@ exports[`should render TR 1`] = `
 
 exports[`should render Text 1`] = `
 <p
-  className="sc-bdVaJa bDWFJH"
+  className="sc-bdVaJa hvucuj"
 />
 `;
 

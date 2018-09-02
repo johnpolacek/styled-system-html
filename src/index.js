@@ -81,7 +81,7 @@ tags.forEach(tag => {
     module.exports[tag.charAt(0).toUpperCase() + tag.slice(1)] = props => <El is={tag} {...props} />
 })
 
-module.exports['Text'] = props => <El is={'p'} {...props} />
+module.exports['Text'] = props => <El is={'p'} m={0} {...props} />
 module.exports['Image'] = props => <El is={'img'} {...props} />
 module.exports['UL'] = props => <El is={'ul'} {...props} />
 module.exports['OL'] = props => <El is={'ol'} {...props} />
