@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Flex, Box } from 'grid-styled'
 import { Div, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Span, Em, Strong, U, Del, Small, Blockquote, A, UL, OL, LI, Nav, Form, Legend, Label, Input, Select, TextArea, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img } from 'styled-system-html';
 import theme from '../Theme';
 import {
@@ -13,7 +12,7 @@ import { ThemeProvider } from 'styled-components';
 import Button from './Button'
 import InputSubmit from './InputSubmit'
 
-const scope = { ThemeProvider, theme, Flex, Box, Div, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Span, Em, Strong, U, Del, Small, Blockquote, A, UL, OL, LI, Nav, Button, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img }
+const scope = { ThemeProvider, theme, Div, Header, Footer, Main, Section, Article, H1, H2, H3, H4, H5, H6, P, Span, Em, Strong, U, Del, Small, Blockquote, A, UL, OL, LI, Nav, Button, Form, Legend, Label, Input, Select, TextArea, InputSubmit, Pre, Code, Table, THead, TBody, TH, TR, TD, Figure, FigCaption, Img }
 
 const code = `
 	render(
@@ -77,59 +76,59 @@ const code = `
 					<Section mb={5} borderBottom="1px solid" borderColor="gray2">
 						<Form pt={2} pb={5}>
 							<H3 pb={3}>Stacked Form</H3>
-							<Box pb={3}>
-								<Box pb={1}>
+							<Div pb={3}>
+								<Div pb={1}>
 									<Label htmlFor="textInput" mr={2}>Text Input</Label>
-								</Box>
+								</Div>
 								<Input type="text" name="textInput" id="textInput" />
-							</Box>
-							<Box pb={3}>
-								<Box pb={1}>
+							</Div>
+							<Div pb={3}>
+								<Div pb={1}>
 									<Label htmlFor="select" mr={2}>Select</Label>
-								</Box>
+								</Div>
 								<Select value="" height="28px" name="selectInput" id="selectInput">
 									<option value="">Please select..</option>
 									<option value="option1">Option 1</option>
 									<option value="option2">Option 2</option>
 									<option value="option3">Option 3</option>
 								</Select>
-							</Box>
-							<Box pb={3}>
-								<Box pb={1}>
+							</Div>
+							<Div pb={3}>
+								<Div pb={1}>
 									<Label htmlFor="textArea" mr={2}>Text Area</Label>
-								</Box>
+								</Div>
 								<TextArea width={1} height="72px" type="text" name="textArea" id="textArea" />
-							</Box>
-							<Box pb={3}>
-								<Box pb={2}>
+							</Div>
+							<Div pb={3}>
+								<Div pb={2}>
 									<Legend mr={2}>Radio Buttons</Legend>
-								</Box>
-								<Box width={1}>
+								</Div>
+								<Div width={1}>
 									<Label htmlFor="radio1" mr={3}><Input type="radio" name="radio" id="radio1" /> Radio 1</Label>
 									<Label htmlFor="radio2" mr={3}><Input type="radio" name="radio" id="radio2" /> Radio 2</Label>
 									<Label htmlFor="radio3" mr={3}><Input type="radio" name="radio" id="radio3" /> Radio 3</Label>
-								</Box>
-							</Box>
-							<Box py={3}>
+								</Div>
+							</Div>
+							<Div py={3}>
 								<Label htmlFor="checkboxInput" mr={2}><Input type="checkbox" name="checkboxInput" id="checkboxInput" /> Checkbox Input</Label>
-							</Box>
-							<Box py={3}>
+							</Div>
+							<Div py={3}>
 								<InputSubmit bg="base" type="submit" value="Submit" />
-							</Box>
+							</Div>
 						</Form>
 					</Section>
 					<Section pb={2} mb={5} borderBottom="1px solid" borderColor="gray2">
 						<Form pb={5}>
 							<H3 pb={5}>Responsive Inline Form</H3>
-							<Flex alignItems="flex-start" flexWrap="wrap" pb={3}>
+							<Div display="flex" alignItems="flex-start" flexWrap="wrap" pb={3}>
 								<Div width={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Label htmlFor="textInput" mr={2}>Text Input</Label>
 								</Div>
 								<Div width={[1,2/3]}>
 									<Input type="text" name="textInput" id="textInput" />
 								</Div>
-							</Flex>
-							<Flex flexWrap="wrap" pb={3}>
+							</Div>
+							<Div display="flex" flexWrap="wrap" pb={3}>
 								<Div width={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Label htmlFor="select" mr={2}>Select</Label>
 								</Div>
@@ -141,16 +140,16 @@ const code = `
 										<option value="option3">Option 3</option>
 									</Select>
 								</Div>
-							</Flex>
-							<Flex alignItems="flex-start" flexWrap="wrap" pb={3}>
+							</Div>
+							<Div display="flex" alignItems="flex-start" flexWrap="wrap" pb={3}>
 								<Div width={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Label htmlFor="textArea" mr={2}>Text Area</Label>
 								</Div>
 								<Div width={[1,2/3]}>
 									<TextArea width={1} height="72px" type="text" name="textArea" id="textArea" />
 								</Div>
-							</Flex>
-							<Flex alignItems="flex-start" flexWrap="wrap" pb={3}>
+							</Div>
+							<Div display="flex" alignItems="flex-start" flexWrap="wrap" pb={3}>
 								<Div width={[1,1/3]} py={1} textAlign={['left','right']}>
 									<Legend mr={2}>Radio Buttons</Legend>
 								</Div>
@@ -159,17 +158,17 @@ const code = `
 									<Label htmlFor="radio2" mr={3}><Input type="radio" name="radio" id="radio2" /> Radio 2</Label>
 									<Label htmlFor="radio3" mr={3}><Input type="radio" name="radio" id="radio3" /> Radio 3</Label>
 								</Div>
-							</Flex>
-							<Flex alignItems="flex-start" flexWrap="wrap" pb={3}>
-								<Box ml={[0,'33.33%']} width={[1]}>
+							</Div>
+							<Div display="flex" alignItems="flex-start" flexWrap="wrap" pb={3}>
+								<Div ml={[0,'33.33%']} width={[1]}>
 									<Label htmlFor="checkboxInput" mr={2}><Input type="checkbox" name="checkboxInput" id="checkboxInput" /> Checkbox Input</Label>
-								</Box>
-							</Flex>
-							<Flex alignItems="flex-start" flexWrap="wrap" py={3}>
-								<Box ml={[0,'33.33%']} width={[1]}>
+								</Div>
+							</Div>
+							<Div display="flex" alignItems="flex-start" flexWrap="wrap" py={3}>
+								<Div ml={[0,'33.33%']} width={[1]}>
 									<InputSubmit bg="base" type="submit" value="Submit" />
-								</Box>
-							</Flex>
+								</Div>
+							</Div>
 						</Form>
 					</Section>
 					<Section pb={5} mb={5}>
@@ -208,12 +207,12 @@ const code = `
 					<Section>
 						<H2>Scaffolding</H2>
 						<P>Use <A fontWeight="bold" color="base" href="https://github.com/jxnblk/grid-styled">grid-styled</A> to create layout structure.</P>
-						<Flex borderWidth="1px">
-							<Box bg="base" p={4} width={1/4} color="white" textAlign="left">Box</Box>
-							<Box bg="green" p={4} width={1/4} color="white" textAlign="center">Box</Box>
-							<Box bg="red" p={4} width={1/4} color="white" textAlign="center">Box</Box>
-							<Box bg="gray" p={4} width={1/4} color="white" textAlign="right">Box</Box>
-						</Flex>
+						<Div display="flex" borderWidth="1px" textAlign="center" color="white">
+							<Div bg="base" p={4} width={1/4}>Box</Div>
+							<Div bg="green" p={4} width={1/4}>Box</Div>
+							<Div bg="red" p={4} width={1/4}>Box</Div>
+							<Div bg="gray" p={4} width={1/4}>Box</Div>
+						</Div>
 						<Div width={1} p={5} mt={4} mb={2} position="relative" border="dashed 1px" borderColor="gray2">
 							<P align="center">Relative Position</P>
 							<Div px={2} py={1} position="absolute" left="0" top="0">Top Left</Div>
@@ -235,17 +234,17 @@ class Demo extends Component {
 	render() {
 		return (
 			<LiveProvider code={code} scope={scope} noInline={true}>
-				<Flex flexWrap="wrap" width={1}>
-					<Box width={[1,1,1,1/2]} fontSize={0} pr={[0,0,0,4]}>
-						<Box css={{overflowX:"hidden"}}>
+				<Div display="flex" flexWrap="wrap" width={1}>
+					<Div width={[1,1,1,1/2]} fontSize={0} pr={[0,0,0,4]}>
+						<Div css={{overflowX:"hidden"}}>
 							<LiveEditor />
-						</Box>
-					</Box>
-					<Box width={[1,1,1,1/2]} pl={[0,0,0,4]} pt={[5,5,5,0]}>
+						</Div>
+					</Div>
+					<Div width={[1,1,1,1/2]} pl={[0,0,0,4]} pt={[5,5,5,0]}>
 						<LiveError />
 						<LivePreview />
-					</Box>
-				</Flex>
+					</Div>
+				</Div>
 			</LiveProvider>
 		);
 	}

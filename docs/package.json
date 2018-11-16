@@ -6,14 +6,12 @@
   "author": "John Polacek",
   "license": "MIT",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "grid-styled": "^5.0.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-live": "^1.11.0",
@@ -21,15 +19,15 @@
     "styled-components": "^3.4.2",
     "styled-system-html": "^1.0.3"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnpolacek/styled-system-html.git"
   },
-  "homepage": "http://johnpolacek.github.io/styled-system-html"
+  "homepage": "http://johnpolacek.github.io/styled-system-html",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

@@ -1,12 +1,12 @@
 {
   "name": "styled-system-html",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "HTML elements extended as styled components via styled system, ready for theming.",
   "main": "dist/index.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d docs/build -b gh-pages",
-    "build": "babel src -d dist --presets=env,react",
+    "build": "babel src -d dist",
     "test": "jest test.js"
   },
   "keywords": [
@@ -24,19 +24,18 @@
     "system-components": "^3.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "^21.2.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "gh-pages": "^1.2.0",
-    "jest": "^21.2.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-live": "^1.10.1",
-    "react-scripts": "^1.1.4",
-    "react-test-renderer": "^16.3.2",
-    "regenerator-runtime": "^0.11.1"
+    "jest": "^23.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-live": "^1.12.0",
+    "react-scripts": "^2.1.1",
+    "react-test-renderer": "^16.6.3",
+    "regenerator-runtime": "^0.12.1"
   },
   "repository": {
     "type": "git",
