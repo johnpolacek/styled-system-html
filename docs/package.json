@@ -1,6 +1,6 @@
 {
   "name": "styled-system-html-docs",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "HTML elements extended as styled components via styled system, ready for theming.",
   "main": "src/html.js",
   "author": "John Polacek",
