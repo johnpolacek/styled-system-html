@@ -16,7 +16,7 @@ class App extends Component {
             <Main mx="auto" p={4} maxWidth='1200px'>
               <H3 pb={3}>Usage</H3>
               <P pb={2} width={[1,1,1/2]}><Code p={3} bg="gray0" border='1px solid' borderColor="gray1">npm i styled-system-html</Code></P>
-              <Div flexWrap="wrap" pb={[3,3,3,4]}>
+              <Div display="flex" flexWrap="wrap" pb={[3,3,3,4]}>
                 <Div width={[1,1,1,1/2]} pr={[0,0,0,4]}>
                   <P>Create a <A color="blue" href="https://www.styled-components.com/docs/advanced">theme</A> with <A color="blue" href="http://jxnblk.com/styled-system/api">settings</A> for colors, typography and spacing.</P>
                   <Pre p={3} bg="gray0" border='1px solid' borderColor="gray1"><Code>{`const theme = {
