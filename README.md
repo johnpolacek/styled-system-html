@@ -5,7 +5,9 @@ HTML elements extended as components, ready for theming via styled system. Built
 
 ## Usage
 
-`npm i styled-system-html`
+```
+$ npm i styled-system-html
+```
 
 Create a [theme](https://www.styled-components.com/docs/advanced) with [settings](http://jxnblk.com/styled-system/api) for colors, typography and spacing.
 
