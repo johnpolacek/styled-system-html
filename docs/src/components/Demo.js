@@ -236,7 +236,7 @@ class Demo extends Component {
 			<LiveProvider code={code} scope={scope} noInline={true}>
 				<Div display="flex" flexWrap="wrap" width={1}>
 					<Div width={[1,1,1,1/2]} fontSize={0} pr={[0,0,0,4]}>
-						<Div css={{overflowX:"hidden"}}>
+						<Div overflow="hidden">
 							<LiveEditor />
 						</Div>
 					</Div>
