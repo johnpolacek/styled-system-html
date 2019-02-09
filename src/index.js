@@ -7,6 +7,8 @@ import {
   display,
   minWidth,
   minHeight,
+  maxWidth,
+  maxHeight,
   width,
   height,
   flex,
