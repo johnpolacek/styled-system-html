@@ -1,6 +1,6 @@
 {
   "name": "styled-system-html",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "HTML elements extended as styled components via styled system, ready for theming.",
   "main": "dist/index.js",
   "scripts": {
@@ -20,8 +20,9 @@
   "license": "MIT",
   "dependencies": {
     "html-tags": "^2.0.0",
+    "jest": "^24.1.0",
     "styled-components": "^4.1.3",
-    "styled-system": "^3.2.1"
+    "styled-system": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
@@ -29,7 +30,6 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "gh-pages": "^1.2.0",
-    "jest": "^23.6.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-live": "^1.12.0",
