@@ -3,7 +3,6 @@ import { ThemeProvider } from 'styled-components'
 import theme from './Theme'
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Demo from './components/Demo';
 import { Div, Main, H3, P, Pre, Code, A } from 'styled-system-html'
 
 class App extends Component {
@@ -13,7 +12,7 @@ class App extends Component {
         <ThemeProvider theme={theme}>
           <Div>
             <Header />
-            <Main mx="auto" p={4} maxWidth='1200px'>
+            <Main mx="auto" p={4} width={[1,1,1,1100]}>
               <H3 pb={3}>Usage</H3>
               <P pb={2} width={[1,1,1/2]}><Code p={3} bg="gray0" border='1px solid' borderColor="gray1">npm i styled-system-html</Code></P>
               <Div display="flex" flexWrap="wrap" pb={[3,3,3,4]}>
@@ -30,8 +29,8 @@ class App extends Component {
                   <P>For more info, see <A color="blue" fontWeight="bold" href="http://jxnblk.com/styled-system/">Styled System</A> by <A color="blue" fontWeight="bold" href="http://jxnblk.com">Brent Jackson</A>.</P>
                 </Div>
               </Div>
-              <H3 pb={3} m={0}>Live Code Example</H3>
-              <Demo />
+              <H3 pb={3} m={0}>Code Sandbox</H3>
+              <iframe title="demo" src="https://codesandbox.io/embed/q4xq1q1xyj?fontsize=14" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
             </Main>
             <Footer />
           </Div>
