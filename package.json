@@ -1,6 +1,6 @@
 {
   "name": "styled-system-html",
-  "version": "2.0.8",
+  "version": "3.0.0",
   "description": "HTML elements extended as styled components via styled system, ready for theming.",
   "main": "dist/index.js",
   "scripts": {
@@ -21,8 +21,8 @@
   "dependencies": {
     "html-tags": "^2.0.0",
     "jest": "^24.1.0",
-    "styled-components": "^4.1.3",
-    "styled-system": "^4.0.0"
+    "styled-components": "^4.2.1",
+    "styled-system": "^5.0.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
