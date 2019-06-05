@@ -1,6 +1,6 @@
 {
   "name": "styled-system-html-docs",
-  "version": "3.0.0",
+  "version": "3.0.0-alpha",
   "description": "HTML elements extended as styled components via styled system, ready for theming.",
   "main": "src/html.js",
   "author": "John Polacek",
@@ -17,7 +17,7 @@
     "react-scripts": "^2.1.5",
     "styled-components": "^4.2.1",
     "styled-system": "^5.0.5",
-    "styled-system-html": "^3.0.0"
+    "styled-system-html": "^3.0.0-alpha"
   },
   "repository": {
     "type": "git",
