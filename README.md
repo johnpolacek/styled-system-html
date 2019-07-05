@@ -3,6 +3,8 @@
 
 HTML elements extended as components, ready for theming via styled system. Built with/for [Styled Components](http://styled-components.com) & [Styled System](http://jxnblk.com/styled-system/)
 
+*UPDATE: I now recommend using theme-ui instead of this library. Check it out at [theme-ui.com](https://theme-ui.com)*
+
 ## Usage
 
 ```
